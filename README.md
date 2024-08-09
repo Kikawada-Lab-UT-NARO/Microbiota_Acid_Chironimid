@@ -7,4 +7,4 @@ This directory lists the analysis pipeline and raw data of "Title" papers.
 
 - Raw_data directory: Raw data used to create graphs. The qzv file can be uploaded to the qiime2 view (https://view.qiime2.org/) for interactive visualisation.
 
-- V3-V4_16S_rRNA_analyses: A pipeline for analysing Illumina sequencing data and assembling V3-V4 16S rRNA genes is available.
+- V3-V4_16S_rRNA_analyses directory: A pipeline for analysing Illumina sequencing data and assembling V3-V4 16S rRNA genes is available.
