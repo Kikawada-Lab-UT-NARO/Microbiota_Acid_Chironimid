@@ -10,7 +10,15 @@ $DORADO_PATH/dorado demux --kit-name SQK-NBD114-96 --output-dir $DUPLEX_OUTPATH 
 
 
 ```
+# Bam to fastq and statistiscs for the sequence
+```
+for i in `ls $DUPLEX_OUTPATH/*.bam |xargs -I {} basename {} .bam`
+do
+samtools fastq $DUPLEX_OUTPATH/$i.bam > $DUPLEX_FASTQ_PATH/$i.fq
+done
 
+seqkit stats $DUPLEX_FASTA_PATH/*.fq
+```
 
 # Assembly Nanopore sequencing data
 ```
