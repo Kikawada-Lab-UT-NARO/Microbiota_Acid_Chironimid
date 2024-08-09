@@ -7,11 +7,15 @@ DUPLEX_OUTPATH=/home/nakanishi/Dropbox/00_16S_rRNA/Nanopore_sequencing/NB0010/20
 $DORADO_PATH/dorado duplex sup -x cuda:all $POD5_PATH > $DUPLEX_OUTPATH/basecall.bam
 
 $DORADO_PATH/dorado demux --kit-name SQK-NBD114-96 --output-dir $DUPLEX_OUTPATH /Users/nakanishi/Dropbox/00_16S_rRNA/Nanopore_sequencing/NB0010/20240802_0038_MN36499_AVJ493_4952ac9d/pod5/bam_demux/basecall.bam
-
-
 ```
+
 # Bam to fastq and statistiscs for the sequence
 ```
+
+DUPLEX_FASTQ_PATH=$DUPLEX_OUTPATH/duplex_fastq/
+
+mkdir $DUPLEX_FASTQ_PATH
+
 for i in `ls $DUPLEX_OUTPATH/*.bam |xargs -I {} basename {} .bam`
 do
 samtools fastq $DUPLEX_OUTPATH/$i.bam > $DUPLEX_FASTQ_PATH/$i.fq
