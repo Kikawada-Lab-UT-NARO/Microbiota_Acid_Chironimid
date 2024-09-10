@@ -26,7 +26,7 @@ seqkit stats $DUPLEX_FASTA_PATH/*.fq
 
 # Assembly Nanopore sequencing data
 ```
-for i in `seq -w 4 6`
+for i in `seq -f "%02g" -w 04 06`
 do
 echo $i
 nextflow run main.nf --reads ./Nanopore_sequencing/NB0009/20240706_1318_MN36499_ASV586_305da7fe/bam_demux/duplex_fastq/SQK-NBD114-96_barcode${i}_filterd.fq \
