@@ -1,0 +1,10 @@
+
+ZymoBIOMICS_DIR=/Users/nakanishi/Downloads/
+
+# Enterococcus faecalis(reference) vs Enterococcus faecalis (assembly)
+mafft --auto $ZymoBIOMICS_DIR/ZymoBIOMICS.STD.refseq.v2/ssrRNAs/Enterococcus_faecalis_16S_170923.fasta.split/Enterococcus_faecalis_16S_170923.part_Enterococcus_faecalis_16S_1_merge.fasta > $ZymoBIOMICS_DIR/ZymoBIOMICS.STD.refseq.v2/ssrRNAs/Enterococcus_faecalis_16S_170923.fasta.split/Enterococcus_faecalis_16S_170923.part_Enterococcus_faecalis_16S_1_merge.aln
+mafft --auto $ZymoBIOMICS_DIR/ZymoBIOMICS.STD.refseq.v2/ssrRNAs/Bacillus_subtilis_16S_170923.fasta.split/Bacillus_subtilis_16S_170923.part_Bacillus_subtilis_16S_1_merge.fasta > $ZymoBIOMICS_DIR/ZymoBIOMICS.STD.refseq.v2/ssrRNAs/Bacillus_subtilis_16S_170923.fasta.split/Bacillus_subtilis_16S_170923.part_Bacillus_subtilis_16S_1_merge.aln
+
+mafft --auto /Users/nakanishi/Downloads/ZymoBIOMICS.STD.refseq.v2/ssrRNAs/Salmonella_enterica_16S_170923.fasta.split/Salmonella_enterica_16S_170923.part_Salmonella_enterica_16S_1_merge.fasta > /Users/nakanishi/Downloads/ZymoBIOMICS.STD.refseq.v2/ssrRNAs/Salmonella_enterica_16S_170923.fasta.split/Salmonella_enterica_16S_170923.part_Salmonella_enterica_16S_1_merge.aln
+mafft --auto /Users/nakanishi/Downloads/ZymoBIOMICS.STD.refseq.v2/ssrRNAs/Salmonella_enterica_16S_170923.fasta.split/Salmonella_enterica_16S_170923.part_Salmonella_enterica_16S_2_merge.fasta > /Users/nakanishi/Downloads/ZymoBIOMICS.STD.refseq.v2/ssrRNAs/Salmonella_enterica_16S_170923.fasta.split/Salmonella_enterica_16S_170923.part_Salmonella_enterica_16S_2_merge.aln
+mafft --auto /Users/nakanishi/Downloads/ZymoBIOMICS.STD.refseq.v2/ssrRNAs/Listeria_monocytogenes_16S_170923.fasta.split/Listeria_monocytogenes_16S_170923.part_Listeria_monocytogenes_16S_1_merge.fasta > /Users/nakanishi/Downloads/ZymoBIOMICS.STD.refseq.v2/ssrRNAs/Listeria_monocytogenes_16S_170923.fasta.split/Listeria_monocytogenes_16S_170923.part_Listeria_monocytogenes_16S_1_merge.aln
