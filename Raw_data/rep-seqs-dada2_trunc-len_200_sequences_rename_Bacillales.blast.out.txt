@@ -1,0 +1,519 @@
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: rep-seqs-dada2_trunc-len_200_sequences_rename_Bacillales.fasta
+           3 sequences; 2,368 total letters
+
+
+
+Query= 64f0fe1313f015c908bf3e2b36902649_d__Bacteria;p__Firmicutes;c__Bacill
+i;o__Bacillales
+
+Length=438
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Oikeobacillus sp. (Bacillales) Yukawa strain                        809     0.0  
+  67e23b7e2ecd31ce906cb9c37837ff76_d__Bacteria;p__Firmicutes;c__B...  809     0.0  
+  64f0fe1313f015c908bf3e2b36902649_d__Bacteria;p__Firmicutes;c__B...  809     0.0  
+
+
+> Oikeobacillus sp. (Bacillales) Yukawa strain
+Length=1491
+
+ Score = 809 bits (438),  Expect = 0.0
+ Identities = 438/438 (100%), Gaps = 0/438 (0%)
+ Strand=Plus/Plus
+
+Query  1    TAGGGAATTTTCGGCAATGGACGAAAGTCTGACCGAGCAACGCCGCGTGAGTGAAGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  344  TAGGGAATTTTCGGCAATGGACGAAAGTCTGACCGAGCAACGCCGCGTGAGTGAAGAAGG  403
+
+Query  61   TTTTCGGATCGTAAAGCTCTGTTGTAGGAGAAGAAATGCTAATAAAGGAAATGTTATTAG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  404  TTTTCGGATCGTAAAGCTCTGTTGTAGGAGAAGAAATGCTAATAAAGGAAATGTTATTAG  463
+
+Query  121  TTTGACGGTATCCTATTAGAAAGTCACGGCTAACTACGTGCCAGCAGCCGCGGTAATACG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  464  TTTGACGGTATCCTATTAGAAAGTCACGGCTAACTACGTGCCAGCAGCCGCGGTAATACG  523
+
+Query  181  TAGGTGGCAAGCGTTGTCCGGAATTATTGGGCGTAAAGCGCGCGCAGGCGGTCAAATAAG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  524  TAGGTGGCAAGCGTTGTCCGGAATTATTGGGCGTAAAGCGCGCGCAGGCGGTCAAATAAG  583
+
+Query  241  TCTGATGTGAAATCCCACGGCTCAACCGTGGTAGGTCATTGGAAACTGTTTGACTTGAGT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  584  TCTGATGTGAAATCCCACGGCTCAACCGTGGTAGGTCATTGGAAACTGTTTGACTTGAGT  643
+
+Query  301  GCAGAAGAGAAGAGTGGAATTCCACGTGTAGCGGTGAAATGCGTAGAGATGTGGAGGAAC  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  644  GCAGAAGAGAAGAGTGGAATTCCACGTGTAGCGGTGAAATGCGTAGAGATGTGGAGGAAC  703
+
+Query  361  ACCAGTGGCGAAGGCGACTCTTTGGTCTGTAACTGACGCTGAGGCGCGAAAGCGTGGGGA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  704  ACCAGTGGCGAAGGCGACTCTTTGGTCTGTAACTGACGCTGAGGCGCGAAAGCGTGGGGA  763
+
+Query  421  GCAAACAGGATTAGATAC  438
+            ||||||||||||||||||
+Sbjct  764  GCAAACAGGATTAGATAC  781
+
+
+> 67e23b7e2ecd31ce906cb9c37837ff76_d__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales
+Length=439
+
+ Score = 809 bits (438),  Expect = 0.0
+ Identities = 438/438 (100%), Gaps = 0/438 (0%)
+ Strand=Plus/Plus
+
+Query  1    TAGGGAATTTTCGGCAATGGACGAAAGTCTGACCGAGCAACGCCGCGTGAGTGAAGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TAGGGAATTTTCGGCAATGGACGAAAGTCTGACCGAGCAACGCCGCGTGAGTGAAGAAGG  60
+
+Query  61   TTTTCGGATCGTAAAGCTCTGTTGTAGGAGAAGAAATGCTAATAAAGGAAATGTTATTAG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   TTTTCGGATCGTAAAGCTCTGTTGTAGGAGAAGAAATGCTAATAAAGGAAATGTTATTAG  120
+
+Query  121  TTTGACGGTATCCTATTAGAAAGTCACGGCTAACTACGTGCCAGCAGCCGCGGTAATACG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  TTTGACGGTATCCTATTAGAAAGTCACGGCTAACTACGTGCCAGCAGCCGCGGTAATACG  180
+
+Query  181  TAGGTGGCAAGCGTTGTCCGGAATTATTGGGCGTAAAGCGCGCGCAGGCGGTCAAATAAG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  TAGGTGGCAAGCGTTGTCCGGAATTATTGGGCGTAAAGCGCGCGCAGGCGGTCAAATAAG  240
+
+Query  241  TCTGATGTGAAATCCCACGGCTCAACCGTGGTAGGTCATTGGAAACTGTTTGACTTGAGT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCTGATGTGAAATCCCACGGCTCAACCGTGGTAGGTCATTGGAAACTGTTTGACTTGAGT  300
+
+Query  301  GCAGAAGAGAAGAGTGGAATTCCACGTGTAGCGGTGAAATGCGTAGAGATGTGGAGGAAC  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  GCAGAAGAGAAGAGTGGAATTCCACGTGTAGCGGTGAAATGCGTAGAGATGTGGAGGAAC  360
+
+Query  361  ACCAGTGGCGAAGGCGACTCTTTGGTCTGTAACTGACGCTGAGGCGCGAAAGCGTGGGGA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ACCAGTGGCGAAGGCGACTCTTTGGTCTGTAACTGACGCTGAGGCGCGAAAGCGTGGGGA  420
+
+Query  421  GCAAACAGGATTAGATAC  438
+            ||||||||||||||||||
+Sbjct  421  GCAAACAGGATTAGATAC  438
+
+
+> 64f0fe1313f015c908bf3e2b36902649_d__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales
+Length=438
+
+ Score = 809 bits (438),  Expect = 0.0
+ Identities = 438/438 (100%), Gaps = 0/438 (0%)
+ Strand=Plus/Plus
+
+Query  1    TAGGGAATTTTCGGCAATGGACGAAAGTCTGACCGAGCAACGCCGCGTGAGTGAAGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TAGGGAATTTTCGGCAATGGACGAAAGTCTGACCGAGCAACGCCGCGTGAGTGAAGAAGG  60
+
+Query  61   TTTTCGGATCGTAAAGCTCTGTTGTAGGAGAAGAAATGCTAATAAAGGAAATGTTATTAG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   TTTTCGGATCGTAAAGCTCTGTTGTAGGAGAAGAAATGCTAATAAAGGAAATGTTATTAG  120
+
+Query  121  TTTGACGGTATCCTATTAGAAAGTCACGGCTAACTACGTGCCAGCAGCCGCGGTAATACG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  TTTGACGGTATCCTATTAGAAAGTCACGGCTAACTACGTGCCAGCAGCCGCGGTAATACG  180
+
+Query  181  TAGGTGGCAAGCGTTGTCCGGAATTATTGGGCGTAAAGCGCGCGCAGGCGGTCAAATAAG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  TAGGTGGCAAGCGTTGTCCGGAATTATTGGGCGTAAAGCGCGCGCAGGCGGTCAAATAAG  240
+
+Query  241  TCTGATGTGAAATCCCACGGCTCAACCGTGGTAGGTCATTGGAAACTGTTTGACTTGAGT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCTGATGTGAAATCCCACGGCTCAACCGTGGTAGGTCATTGGAAACTGTTTGACTTGAGT  300
+
+Query  301  GCAGAAGAGAAGAGTGGAATTCCACGTGTAGCGGTGAAATGCGTAGAGATGTGGAGGAAC  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  GCAGAAGAGAAGAGTGGAATTCCACGTGTAGCGGTGAAATGCGTAGAGATGTGGAGGAAC  360
+
+Query  361  ACCAGTGGCGAAGGCGACTCTTTGGTCTGTAACTGACGCTGAGGCGCGAAAGCGTGGGGA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ACCAGTGGCGAAGGCGACTCTTTGGTCTGTAACTGACGCTGAGGCGCGAAAGCGTGGGGA  420
+
+Query  421  GCAAACAGGATTAGATAC  438
+            ||||||||||||||||||
+Sbjct  421  GCAAACAGGATTAGATAC  438
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 989825
+
+
+Query= 67e23b7e2ecd31ce906cb9c37837ff76_d__Bacteria;p__Firmicutes;c__Bacill
+i;o__Bacillales
+
+Length=439
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Oikeobacillus sp. (Bacillales) Yukawa strain                        811     0.0  
+  67e23b7e2ecd31ce906cb9c37837ff76_d__Bacteria;p__Firmicutes;c__B...  811     0.0  
+  64f0fe1313f015c908bf3e2b36902649_d__Bacteria;p__Firmicutes;c__B...  809     0.0  
+
+
+> Oikeobacillus sp. (Bacillales) Yukawa strain
+Length=1491
+
+ Score = 811 bits (439),  Expect = 0.0
+ Identities = 439/439 (100%), Gaps = 0/439 (0%)
+ Strand=Plus/Plus
+
+Query  1    TAGGGAATTTTCGGCAATGGACGAAAGTCTGACCGAGCAACGCCGCGTGAGTGAAGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  344  TAGGGAATTTTCGGCAATGGACGAAAGTCTGACCGAGCAACGCCGCGTGAGTGAAGAAGG  403
+
+Query  61   TTTTCGGATCGTAAAGCTCTGTTGTAGGAGAAGAAATGCTAATAAAGGAAATGTTATTAG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  404  TTTTCGGATCGTAAAGCTCTGTTGTAGGAGAAGAAATGCTAATAAAGGAAATGTTATTAG  463
+
+Query  121  TTTGACGGTATCCTATTAGAAAGTCACGGCTAACTACGTGCCAGCAGCCGCGGTAATACG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  464  TTTGACGGTATCCTATTAGAAAGTCACGGCTAACTACGTGCCAGCAGCCGCGGTAATACG  523
+
+Query  181  TAGGTGGCAAGCGTTGTCCGGAATTATTGGGCGTAAAGCGCGCGCAGGCGGTCAAATAAG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  524  TAGGTGGCAAGCGTTGTCCGGAATTATTGGGCGTAAAGCGCGCGCAGGCGGTCAAATAAG  583
+
+Query  241  TCTGATGTGAAATCCCACGGCTCAACCGTGGTAGGTCATTGGAAACTGTTTGACTTGAGT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  584  TCTGATGTGAAATCCCACGGCTCAACCGTGGTAGGTCATTGGAAACTGTTTGACTTGAGT  643
+
+Query  301  GCAGAAGAGAAGAGTGGAATTCCACGTGTAGCGGTGAAATGCGTAGAGATGTGGAGGAAC  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  644  GCAGAAGAGAAGAGTGGAATTCCACGTGTAGCGGTGAAATGCGTAGAGATGTGGAGGAAC  703
+
+Query  361  ACCAGTGGCGAAGGCGACTCTTTGGTCTGTAACTGACGCTGAGGCGCGAAAGCGTGGGGA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  704  ACCAGTGGCGAAGGCGACTCTTTGGTCTGTAACTGACGCTGAGGCGCGAAAGCGTGGGGA  763
+
+Query  421  GCAAACAGGATTAGATACC  439
+            |||||||||||||||||||
+Sbjct  764  GCAAACAGGATTAGATACC  782
+
+
+> 67e23b7e2ecd31ce906cb9c37837ff76_d__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales
+Length=439
+
+ Score = 811 bits (439),  Expect = 0.0
+ Identities = 439/439 (100%), Gaps = 0/439 (0%)
+ Strand=Plus/Plus
+
+Query  1    TAGGGAATTTTCGGCAATGGACGAAAGTCTGACCGAGCAACGCCGCGTGAGTGAAGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TAGGGAATTTTCGGCAATGGACGAAAGTCTGACCGAGCAACGCCGCGTGAGTGAAGAAGG  60
+
+Query  61   TTTTCGGATCGTAAAGCTCTGTTGTAGGAGAAGAAATGCTAATAAAGGAAATGTTATTAG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   TTTTCGGATCGTAAAGCTCTGTTGTAGGAGAAGAAATGCTAATAAAGGAAATGTTATTAG  120
+
+Query  121  TTTGACGGTATCCTATTAGAAAGTCACGGCTAACTACGTGCCAGCAGCCGCGGTAATACG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  TTTGACGGTATCCTATTAGAAAGTCACGGCTAACTACGTGCCAGCAGCCGCGGTAATACG  180
+
+Query  181  TAGGTGGCAAGCGTTGTCCGGAATTATTGGGCGTAAAGCGCGCGCAGGCGGTCAAATAAG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  TAGGTGGCAAGCGTTGTCCGGAATTATTGGGCGTAAAGCGCGCGCAGGCGGTCAAATAAG  240
+
+Query  241  TCTGATGTGAAATCCCACGGCTCAACCGTGGTAGGTCATTGGAAACTGTTTGACTTGAGT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCTGATGTGAAATCCCACGGCTCAACCGTGGTAGGTCATTGGAAACTGTTTGACTTGAGT  300
+
+Query  301  GCAGAAGAGAAGAGTGGAATTCCACGTGTAGCGGTGAAATGCGTAGAGATGTGGAGGAAC  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  GCAGAAGAGAAGAGTGGAATTCCACGTGTAGCGGTGAAATGCGTAGAGATGTGGAGGAAC  360
+
+Query  361  ACCAGTGGCGAAGGCGACTCTTTGGTCTGTAACTGACGCTGAGGCGCGAAAGCGTGGGGA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ACCAGTGGCGAAGGCGACTCTTTGGTCTGTAACTGACGCTGAGGCGCGAAAGCGTGGGGA  420
+
+Query  421  GCAAACAGGATTAGATACC  439
+            |||||||||||||||||||
+Sbjct  421  GCAAACAGGATTAGATACC  439
+
+
+> 64f0fe1313f015c908bf3e2b36902649_d__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales
+Length=438
+
+ Score = 809 bits (438),  Expect = 0.0
+ Identities = 438/438 (100%), Gaps = 0/438 (0%)
+ Strand=Plus/Plus
+
+Query  1    TAGGGAATTTTCGGCAATGGACGAAAGTCTGACCGAGCAACGCCGCGTGAGTGAAGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TAGGGAATTTTCGGCAATGGACGAAAGTCTGACCGAGCAACGCCGCGTGAGTGAAGAAGG  60
+
+Query  61   TTTTCGGATCGTAAAGCTCTGTTGTAGGAGAAGAAATGCTAATAAAGGAAATGTTATTAG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   TTTTCGGATCGTAAAGCTCTGTTGTAGGAGAAGAAATGCTAATAAAGGAAATGTTATTAG  120
+
+Query  121  TTTGACGGTATCCTATTAGAAAGTCACGGCTAACTACGTGCCAGCAGCCGCGGTAATACG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  TTTGACGGTATCCTATTAGAAAGTCACGGCTAACTACGTGCCAGCAGCCGCGGTAATACG  180
+
+Query  181  TAGGTGGCAAGCGTTGTCCGGAATTATTGGGCGTAAAGCGCGCGCAGGCGGTCAAATAAG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  TAGGTGGCAAGCGTTGTCCGGAATTATTGGGCGTAAAGCGCGCGCAGGCGGTCAAATAAG  240
+
+Query  241  TCTGATGTGAAATCCCACGGCTCAACCGTGGTAGGTCATTGGAAACTGTTTGACTTGAGT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCTGATGTGAAATCCCACGGCTCAACCGTGGTAGGTCATTGGAAACTGTTTGACTTGAGT  300
+
+Query  301  GCAGAAGAGAAGAGTGGAATTCCACGTGTAGCGGTGAAATGCGTAGAGATGTGGAGGAAC  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  GCAGAAGAGAAGAGTGGAATTCCACGTGTAGCGGTGAAATGCGTAGAGATGTGGAGGAAC  360
+
+Query  361  ACCAGTGGCGAAGGCGACTCTTTGGTCTGTAACTGACGCTGAGGCGCGAAAGCGTGGGGA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ACCAGTGGCGAAGGCGACTCTTTGGTCTGTAACTGACGCTGAGGCGCGAAAGCGTGGGGA  420
+
+Query  421  GCAAACAGGATTAGATAC  438
+            ||||||||||||||||||
+Sbjct  421  GCAAACAGGATTAGATAC  438
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 992154
+
+
+Query= Oikeobacillus sp. (Bacillales) Yukawa strain
+
+Length=1491
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Oikeobacillus sp. (Bacillales) Yukawa strain                        2754    0.0  
+  67e23b7e2ecd31ce906cb9c37837ff76_d__Bacteria;p__Firmicutes;c__B...  811     0.0  
+  64f0fe1313f015c908bf3e2b36902649_d__Bacteria;p__Firmicutes;c__B...  809     0.0  
+
+
+> Oikeobacillus sp. (Bacillales) Yukawa strain
+Length=1491
+
+ Score = 2754 bits (1491),  Expect = 0.0
+ Identities = 1491/1491 (100%), Gaps = 0/1491 (0%)
+ Strand=Plus/Plus
+
+Query  1     GGCTCAGGACGAACGCTGGCGGCGTGCCTAATACATGCAAGTCGTGCGGGCTAACAGAAG  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1     GGCTCAGGACGAACGCTGGCGGCGTGCCTAATACATGCAAGTCGTGCGGGCTAACAGAAG  60
+
+Query  61    CTTGCTTCTGTTAGCTAGCGGCGGACGGGTGAGTAACACGTGGGTAACCTACCTTTAAGA  120
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61    CTTGCTTCTGTTAGCTAGCGGCGGACGGGTGAGTAACACGTGGGTAACCTACCTTTAAGA  120
+
+Query  121   TTGGGATAACTTCGGGAAACTGATGCTAATACCGAATATGAGATTGGAAAGCATTTTCTG  180
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121   TTGGGATAACTTCGGGAAACTGATGCTAATACCGAATATGAGATTGGAAAGCATTTTCTG  180
+
+Query  181   ATTTGGAAAGTTCGTGCAAGCGAACACTTAAAGATGGACCTGCGGCGCATTAGCTAGTTG  240
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181   ATTTGGAAAGTTCGTGCAAGCGAACACTTAAAGATGGACCTGCGGCGCATTAGCTAGTTG  240
+
+Query  241   GTAAGGTAACGGCTTACCAAGGCGACGATGCGTAGCCGGCCTGAGAGGGTGAACGGCCAC  300
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241   GTAAGGTAACGGCTTACCAAGGCGACGATGCGTAGCCGGCCTGAGAGGGTGAACGGCCAC  300
+
+Query  301   ACTGGGACTGAGACACGGCCCAGACTCCTACGGGAGGCAGCAGTAGGGAATTTTCGGCAA  360
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301   ACTGGGACTGAGACACGGCCCAGACTCCTACGGGAGGCAGCAGTAGGGAATTTTCGGCAA  360
+
+Query  361   TGGACGAAAGTCTGACCGAGCAACGCCGCGTGAGTGAAGAAGGTTTTCGGATCGTAAAGC  420
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361   TGGACGAAAGTCTGACCGAGCAACGCCGCGTGAGTGAAGAAGGTTTTCGGATCGTAAAGC  420
+
+Query  421   TCTGTTGTAGGAGAAGAAATGCTAATAAAGGAAATGTTATTAGTTTGACGGTATCCTATT  480
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  421   TCTGTTGTAGGAGAAGAAATGCTAATAAAGGAAATGTTATTAGTTTGACGGTATCCTATT  480
+
+Query  481   AGAAAGTCACGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGTGGCAAGCGTTGT  540
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  481   AGAAAGTCACGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGTGGCAAGCGTTGT  540
+
+Query  541   CCGGAATTATTGGGCGTAAAGCGCGCGCAGGCGGTCAAATAAGTCTGATGTGAAATCCCA  600
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  541   CCGGAATTATTGGGCGTAAAGCGCGCGCAGGCGGTCAAATAAGTCTGATGTGAAATCCCA  600
+
+Query  601   CGGCTCAACCGTGGTAGGTCATTGGAAACTGTTTGACTTGAGTGCAGAAGAGAAGAGTGG  660
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  601   CGGCTCAACCGTGGTAGGTCATTGGAAACTGTTTGACTTGAGTGCAGAAGAGAAGAGTGG  660
+
+Query  661   AATTCCACGTGTAGCGGTGAAATGCGTAGAGATGTGGAGGAACACCAGTGGCGAAGGCGA  720
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  661   AATTCCACGTGTAGCGGTGAAATGCGTAGAGATGTGGAGGAACACCAGTGGCGAAGGCGA  720
+
+Query  721   CTCTTTGGTCTGTAACTGACGCTGAGGCGCGAAAGCGTGGGGAGCAAACAGGATTAGATA  780
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  721   CTCTTTGGTCTGTAACTGACGCTGAGGCGCGAAAGCGTGGGGAGCAAACAGGATTAGATA  780
+
+Query  781   CCCTGGTAGTCCACGCTGTAAACGATGAGTGCTAAGTGTTAGGGGGTTTCCGCCCCTTAG  840
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  781   CCCTGGTAGTCCACGCTGTAAACGATGAGTGCTAAGTGTTAGGGGGTTTCCGCCCCTTAG  840
+
+Query  841   TGCTGCAGCTAACGCATTAAGCACTCCGCCTGGGGAGTACGGTCGCAAGGCTGAAACTCA  900
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  841   TGCTGCAGCTAACGCATTAAGCACTCCGCCTGGGGAGTACGGTCGCAAGGCTGAAACTCA  900
+
+Query  901   AAGGAATTGACGGGGACCCGCACAAGCGGTGGAGCATGTGGTTTAATTCGAAGCAACGCG  960
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  901   AAGGAATTGACGGGGACCCGCACAAGCGGTGGAGCATGTGGTTTAATTCGAAGCAACGCG  960
+
+Query  961   AAGAACCTTACCAGGTCTTGACATCGTGCTGACCAACGTAGAGATACGTTTTCCCTTCGG  1020
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  961   AAGAACCTTACCAGGTCTTGACATCGTGCTGACCAACGTAGAGATACGTTTTCCCTTCGG  1020
+
+Query  1021  GGCAGCATAGACAGGTGGTGCATGGTTGTCGTCAGCTCGTGTCGTGAGATGTTGGGTTAA  1080
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1021  GGCAGCATAGACAGGTGGTGCATGGTTGTCGTCAGCTCGTGTCGTGAGATGTTGGGTTAA  1080
+
+Query  1081  GTCCCGCAACGAGCGCAACCCTTGACATTAGTTGCCAGCAAGTAAAGTTGGGGACTCTAA  1140
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1081  GTCCCGCAACGAGCGCAACCCTTGACATTAGTTGCCAGCAAGTAAAGTTGGGGACTCTAA  1140
+
+Query  1141  TGTGACTGCCAGTGTAAGCTGGAGGAAGGTGGGGATGACGTCAAATCATCATGCCCCTTA  1200
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1141  TGTGACTGCCAGTGTAAGCTGGAGGAAGGTGGGGATGACGTCAAATCATCATGCCCCTTA  1200
+
+Query  1201  TGACCTGGGCTACACACGTGCTACAATGGGTGGTACAAAGGGAAGCAATATTGTGAAATG  1260
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1201  TGACCTGGGCTACACACGTGCTACAATGGGTGGTACAAAGGGAAGCAATATTGTGAAATG  1260
+
+Query  1261  GAGCAAATCCCATAAAACCATTCTCAGTTCGGATTGTAGGCTGCAACTCGCCTACATGAA  1320
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1261  GAGCAAATCCCATAAAACCATTCTCAGTTCGGATTGTAGGCTGCAACTCGCCTACATGAA  1320
+
+Query  1321  GCTGGAATCGCTAGTAATCGCGGATCAGCATGCCGCGGTGAATACTGTTCCCGGGTCTTG  1380
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1321  GCTGGAATCGCTAGTAATCGCGGATCAGCATGCCGCGGTGAATACTGTTCCCGGGTCTTG  1380
+
+Query  1381  TACACACCGCCCGTCACACCACGAAAGTTTACAACACCCGAAGTCGGTGCGGTAACCCGC  1440
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1381  TACACACCGCCCGTCACACCACGAAAGTTTACAACACCCGAAGTCGGTGCGGTAACCCGC  1440
+
+Query  1441  AAGGGAACTAGCCGCCGAAGGTGGGGTAGATAATTGGGGTGAAGTCGTAAC  1491
+             |||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1441  AAGGGAACTAGCCGCCGAAGGTGGGGTAGATAATTGGGGTGAAGTCGTAAC  1491
+
+
+> 67e23b7e2ecd31ce906cb9c37837ff76_d__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales
+Length=439
+
+ Score = 811 bits (439),  Expect = 0.0
+ Identities = 439/439 (100%), Gaps = 0/439 (0%)
+ Strand=Plus/Plus
+
+Query  344  TAGGGAATTTTCGGCAATGGACGAAAGTCTGACCGAGCAACGCCGCGTGAGTGAAGAAGG  403
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TAGGGAATTTTCGGCAATGGACGAAAGTCTGACCGAGCAACGCCGCGTGAGTGAAGAAGG  60
+
+Query  404  TTTTCGGATCGTAAAGCTCTGTTGTAGGAGAAGAAATGCTAATAAAGGAAATGTTATTAG  463
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   TTTTCGGATCGTAAAGCTCTGTTGTAGGAGAAGAAATGCTAATAAAGGAAATGTTATTAG  120
+
+Query  464  TTTGACGGTATCCTATTAGAAAGTCACGGCTAACTACGTGCCAGCAGCCGCGGTAATACG  523
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  TTTGACGGTATCCTATTAGAAAGTCACGGCTAACTACGTGCCAGCAGCCGCGGTAATACG  180
+
+Query  524  TAGGTGGCAAGCGTTGTCCGGAATTATTGGGCGTAAAGCGCGCGCAGGCGGTCAAATAAG  583
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  TAGGTGGCAAGCGTTGTCCGGAATTATTGGGCGTAAAGCGCGCGCAGGCGGTCAAATAAG  240
+
+Query  584  TCTGATGTGAAATCCCACGGCTCAACCGTGGTAGGTCATTGGAAACTGTTTGACTTGAGT  643
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCTGATGTGAAATCCCACGGCTCAACCGTGGTAGGTCATTGGAAACTGTTTGACTTGAGT  300
+
+Query  644  GCAGAAGAGAAGAGTGGAATTCCACGTGTAGCGGTGAAATGCGTAGAGATGTGGAGGAAC  703
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  GCAGAAGAGAAGAGTGGAATTCCACGTGTAGCGGTGAAATGCGTAGAGATGTGGAGGAAC  360
+
+Query  704  ACCAGTGGCGAAGGCGACTCTTTGGTCTGTAACTGACGCTGAGGCGCGAAAGCGTGGGGA  763
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ACCAGTGGCGAAGGCGACTCTTTGGTCTGTAACTGACGCTGAGGCGCGAAAGCGTGGGGA  420
+
+Query  764  GCAAACAGGATTAGATACC  782
+            |||||||||||||||||||
+Sbjct  421  GCAAACAGGATTAGATACC  439
+
+
+> 64f0fe1313f015c908bf3e2b36902649_d__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales
+Length=438
+
+ Score = 809 bits (438),  Expect = 0.0
+ Identities = 438/438 (100%), Gaps = 0/438 (0%)
+ Strand=Plus/Plus
+
+Query  344  TAGGGAATTTTCGGCAATGGACGAAAGTCTGACCGAGCAACGCCGCGTGAGTGAAGAAGG  403
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TAGGGAATTTTCGGCAATGGACGAAAGTCTGACCGAGCAACGCCGCGTGAGTGAAGAAGG  60
+
+Query  404  TTTTCGGATCGTAAAGCTCTGTTGTAGGAGAAGAAATGCTAATAAAGGAAATGTTATTAG  463
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   TTTTCGGATCGTAAAGCTCTGTTGTAGGAGAAGAAATGCTAATAAAGGAAATGTTATTAG  120
+
+Query  464  TTTGACGGTATCCTATTAGAAAGTCACGGCTAACTACGTGCCAGCAGCCGCGGTAATACG  523
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  TTTGACGGTATCCTATTAGAAAGTCACGGCTAACTACGTGCCAGCAGCCGCGGTAATACG  180
+
+Query  524  TAGGTGGCAAGCGTTGTCCGGAATTATTGGGCGTAAAGCGCGCGCAGGCGGTCAAATAAG  583
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  TAGGTGGCAAGCGTTGTCCGGAATTATTGGGCGTAAAGCGCGCGCAGGCGGTCAAATAAG  240
+
+Query  584  TCTGATGTGAAATCCCACGGCTCAACCGTGGTAGGTCATTGGAAACTGTTTGACTTGAGT  643
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCTGATGTGAAATCCCACGGCTCAACCGTGGTAGGTCATTGGAAACTGTTTGACTTGAGT  300
+
+Query  644  GCAGAAGAGAAGAGTGGAATTCCACGTGTAGCGGTGAAATGCGTAGAGATGTGGAGGAAC  703
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  GCAGAAGAGAAGAGTGGAATTCCACGTGTAGCGGTGAAATGCGTAGAGATGTGGAGGAAC  360
+
+Query  704  ACCAGTGGCGAAGGCGACTCTTTGGTCTGTAACTGACGCTGAGGCGCGAAAGCGTGGGGA  763
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ACCAGTGGCGAAGGCGACTCTTTGGTCTGTAACTGACGCTGAGGCGCGAAAGCGTGGGGA  420
+
+Query  764  GCAAACAGGATTAGATAC  781
+            ||||||||||||||||||
+Sbjct  421  GCAAACAGGATTAGATAC  438
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3435502
+
+
+  Database: rep-seqs-dada2_trunc-len_200_sequences_rename_Bacillales.fasta
+    Posted date:  Aug 25, 2024  8:26 PM
+  Number of letters in database: 2,368
+  Number of sequences in database:  3
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

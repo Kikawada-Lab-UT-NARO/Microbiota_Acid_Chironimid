@@ -1,0 +1,2247 @@
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: rep-seqs-dada2_trunc-
+len_200_sequences_rename_Acidithiobacillus_ferrooxidans.fasta
+           7 sequences; 4,114 total letters
+
+
+
+Query= e3fe0cb06570be616838e371a882ddfb_d__Bacteria;p__Proteobacteria;c__Ga
+mmaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__
+Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+
+Length=439
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Acidithiobacillus_ferrooxidans_Yukawa_strain                        811     0.0  
+  42b1638923c5d1491958b1767cb378a7_d__Bacteria;p__Proteobacteria;...  811     0.0  
+  fd55562a4f61bb6efbd0335c89397531_d__Bacteria;p__Proteobacteria;...  811     0.0  
+  b5b43128ebbf50941947052128d2ae81_d__Bacteria;p__Proteobacteria;...  811     0.0  
+  e3fe0cb06570be616838e371a882ddfb_d__Bacteria;p__Proteobacteria;...  811     0.0  
+  b54f8859e6db3a038a430f458bea5595_d__Bacteria;p__Proteobacteria;...  809     0.0  
+  c7e69ea679c4b1eb546808db28592ba2_d__Bacteria;p__Proteobacteria;...  809     0.0  
+
+
+> Acidithiobacillus_ferrooxidans_Yukawa_strain
+Length=1476
+
+ Score = 811 bits (439),  Expect = 0.0
+ Identities = 439/439 (100%), Gaps = 0/439 (0%)
+ Strand=Plus/Plus
+
+Query  1    GTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  332  GTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAG  391
+
+Query  61   GCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  392  GCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGC  451
+
+Query  121  TGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATAC  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  452  TGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATAC  511
+
+Query  181  GGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  512  GGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAG  571
+
+Query  241  GTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAG  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  572  GTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAG  631
+
+Query  301  TATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAA  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  632  TATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAA  691
+
+Query  361  CATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGG  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  692  CATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGG  751
+
+Query  421  AGCAAACAGGATTAGATAC  439
+            |||||||||||||||||||
+Sbjct  752  AGCAAACAGGATTAGATAC  770
+
+
+> 42b1638923c5d1491958b1767cb378a7_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=441
+
+ Score = 811 bits (439),  Expect = 0.0
+ Identities = 439/439 (100%), Gaps = 0/439 (0%)
+ Strand=Plus/Plus
+
+Query  1    GTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3    GTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAG  62
+
+Query  61   GCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  63   GCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGC  122
+
+Query  121  TGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATAC  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  123  TGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATAC  182
+
+Query  181  GGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  183  GGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAG  242
+
+Query  241  GTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAG  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  243  GTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAG  302
+
+Query  301  TATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAA  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  303  TATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAA  362
+
+Query  361  CATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGG  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  363  CATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGG  422
+
+Query  421  AGCAAACAGGATTAGATAC  439
+            |||||||||||||||||||
+Sbjct  423  AGCAAACAGGATTAGATAC  441
+
+
+> fd55562a4f61bb6efbd0335c89397531_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=441
+
+ Score = 811 bits (439),  Expect = 0.0
+ Identities = 439/439 (100%), Gaps = 0/439 (0%)
+ Strand=Plus/Plus
+
+Query  1    GTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2    GTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAG  61
+
+Query  61   GCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  62   GCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGC  121
+
+Query  121  TGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATAC  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  122  TGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATAC  181
+
+Query  181  GGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  182  GGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAG  241
+
+Query  241  GTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAG  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  242  GTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAG  301
+
+Query  301  TATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAA  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  302  TATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAA  361
+
+Query  361  CATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGG  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  362  CATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGG  421
+
+Query  421  AGCAAACAGGATTAGATAC  439
+            |||||||||||||||||||
+Sbjct  422  AGCAAACAGGATTAGATAC  440
+
+
+> b5b43128ebbf50941947052128d2ae81_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=440
+
+ Score = 811 bits (439),  Expect = 0.0
+ Identities = 439/439 (100%), Gaps = 0/439 (0%)
+ Strand=Plus/Plus
+
+Query  1    GTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2    GTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAG  61
+
+Query  61   GCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  62   GCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGC  121
+
+Query  121  TGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATAC  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  122  TGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATAC  181
+
+Query  181  GGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  182  GGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAG  241
+
+Query  241  GTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAG  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  242  GTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAG  301
+
+Query  301  TATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAA  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  302  TATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAA  361
+
+Query  361  CATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGG  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  362  CATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGG  421
+
+Query  421  AGCAAACAGGATTAGATAC  439
+            |||||||||||||||||||
+Sbjct  422  AGCAAACAGGATTAGATAC  440
+
+
+> e3fe0cb06570be616838e371a882ddfb_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=439
+
+ Score = 811 bits (439),  Expect = 0.0
+ Identities = 439/439 (100%), Gaps = 0/439 (0%)
+ Strand=Plus/Plus
+
+Query  1    GTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    GTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAG  60
+
+Query  61   GCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGC  120
+
+Query  121  TGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATAC  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  TGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATAC  180
+
+Query  181  GGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAG  240
+
+Query  241  GTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAG  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  GTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAG  300
+
+Query  301  TATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAA  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  TATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAA  360
+
+Query  361  CATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGG  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  CATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGG  420
+
+Query  421  AGCAAACAGGATTAGATAC  439
+            |||||||||||||||||||
+Sbjct  421  AGCAAACAGGATTAGATAC  439
+
+
+> b54f8859e6db3a038a430f458bea5595_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=439
+
+ Score = 809 bits (438),  Expect = 0.0
+ Identities = 438/438 (100%), Gaps = 0/438 (0%)
+ Strand=Plus/Plus
+
+Query  2    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  61
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+
+Query  62   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  121
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+
+Query  122  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  181
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+
+Query  182  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  241
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+
+Query  242  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  301
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+
+Query  302  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  361
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+
+Query  362  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  421
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+
+Query  422  GCAAACAGGATTAGATAC  439
+            ||||||||||||||||||
+Sbjct  421  GCAAACAGGATTAGATAC  438
+
+
+> c7e69ea679c4b1eb546808db28592ba2_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=438
+
+ Score = 809 bits (438),  Expect = 0.0
+ Identities = 438/438 (100%), Gaps = 0/438 (0%)
+ Strand=Plus/Plus
+
+Query  2    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  61
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+
+Query  62   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  121
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+
+Query  122  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  181
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+
+Query  182  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  241
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+
+Query  242  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  301
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+
+Query  302  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  361
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+
+Query  362  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  421
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+
+Query  422  GCAAACAGGATTAGATAC  439
+            ||||||||||||||||||
+Sbjct  421  GCAAACAGGATTAGATAC  438
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1713798
+
+
+Query= c7e69ea679c4b1eb546808db28592ba2_d__Bacteria;p__Proteobacteria;c__Ga
+mmaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__
+Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+
+Length=438
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Acidithiobacillus_ferrooxidans_Yukawa_strain                        809     0.0  
+  42b1638923c5d1491958b1767cb378a7_d__Bacteria;p__Proteobacteria;...  809     0.0  
+  fd55562a4f61bb6efbd0335c89397531_d__Bacteria;p__Proteobacteria;...  809     0.0  
+  b54f8859e6db3a038a430f458bea5595_d__Bacteria;p__Proteobacteria;...  809     0.0  
+  b5b43128ebbf50941947052128d2ae81_d__Bacteria;p__Proteobacteria;...  809     0.0  
+  c7e69ea679c4b1eb546808db28592ba2_d__Bacteria;p__Proteobacteria;...  809     0.0  
+  e3fe0cb06570be616838e371a882ddfb_d__Bacteria;p__Proteobacteria;...  809     0.0  
+
+
+> Acidithiobacillus_ferrooxidans_Yukawa_strain
+Length=1476
+
+ Score = 809 bits (438),  Expect = 0.0
+ Identities = 438/438 (100%), Gaps = 0/438 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  333  TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  392
+
+Query  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  393  CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  452
+
+Query  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  453  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  512
+
+Query  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  513  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  572
+
+Query  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  573  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  632
+
+Query  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  633  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  692
+
+Query  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  693  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  752
+
+Query  421  GCAAACAGGATTAGATAC  438
+            ||||||||||||||||||
+Sbjct  753  GCAAACAGGATTAGATAC  770
+
+
+> 42b1638923c5d1491958b1767cb378a7_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=441
+
+ Score = 809 bits (438),  Expect = 0.0
+ Identities = 438/438 (100%), Gaps = 0/438 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  4    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  63
+
+Query  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  64   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  123
+
+Query  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  124  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  183
+
+Query  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  184  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  243
+
+Query  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  244  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  303
+
+Query  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  304  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  363
+
+Query  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  364  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  423
+
+Query  421  GCAAACAGGATTAGATAC  438
+            ||||||||||||||||||
+Sbjct  424  GCAAACAGGATTAGATAC  441
+
+
+> fd55562a4f61bb6efbd0335c89397531_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=441
+
+ Score = 809 bits (438),  Expect = 0.0
+ Identities = 438/438 (100%), Gaps = 0/438 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  62
+
+Query  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  63   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  122
+
+Query  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  123  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  182
+
+Query  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  183  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  242
+
+Query  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  243  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  302
+
+Query  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  303  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  362
+
+Query  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  363  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  422
+
+Query  421  GCAAACAGGATTAGATAC  438
+            ||||||||||||||||||
+Sbjct  423  GCAAACAGGATTAGATAC  440
+
+
+> b54f8859e6db3a038a430f458bea5595_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=439
+
+ Score = 809 bits (438),  Expect = 0.0
+ Identities = 438/438 (100%), Gaps = 0/438 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+
+Query  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+
+Query  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+
+Query  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+
+Query  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+
+Query  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+
+Query  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+
+Query  421  GCAAACAGGATTAGATAC  438
+            ||||||||||||||||||
+Sbjct  421  GCAAACAGGATTAGATAC  438
+
+
+> b5b43128ebbf50941947052128d2ae81_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=440
+
+ Score = 809 bits (438),  Expect = 0.0
+ Identities = 438/438 (100%), Gaps = 0/438 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  62
+
+Query  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  63   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  122
+
+Query  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  123  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  182
+
+Query  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  183  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  242
+
+Query  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  243  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  302
+
+Query  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  303  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  362
+
+Query  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  363  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  422
+
+Query  421  GCAAACAGGATTAGATAC  438
+            ||||||||||||||||||
+Sbjct  423  GCAAACAGGATTAGATAC  440
+
+
+> c7e69ea679c4b1eb546808db28592ba2_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=438
+
+ Score = 809 bits (438),  Expect = 0.0
+ Identities = 438/438 (100%), Gaps = 0/438 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+
+Query  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+
+Query  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+
+Query  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+
+Query  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+
+Query  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+
+Query  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+
+Query  421  GCAAACAGGATTAGATAC  438
+            ||||||||||||||||||
+Sbjct  421  GCAAACAGGATTAGATAC  438
+
+
+> e3fe0cb06570be616838e371a882ddfb_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=439
+
+ Score = 809 bits (438),  Expect = 0.0
+ Identities = 438/438 (100%), Gaps = 0/438 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  61
+
+Query  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  62   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  121
+
+Query  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  122  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  181
+
+Query  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  182  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  241
+
+Query  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  242  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  301
+
+Query  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  302  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  361
+
+Query  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  362  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  421
+
+Query  421  GCAAACAGGATTAGATAC  438
+            ||||||||||||||||||
+Sbjct  422  GCAAACAGGATTAGATAC  439
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1709775
+
+
+Query= b5b43128ebbf50941947052128d2ae81_d__Bacteria;p__Proteobacteria;c__Ga
+mmaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__
+Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+
+Length=440
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Acidithiobacillus_ferrooxidans_Yukawa_strain                        813     0.0  
+  42b1638923c5d1491958b1767cb378a7_d__Bacteria;p__Proteobacteria;...  813     0.0  
+  fd55562a4f61bb6efbd0335c89397531_d__Bacteria;p__Proteobacteria;...  813     0.0  
+  b5b43128ebbf50941947052128d2ae81_d__Bacteria;p__Proteobacteria;...  813     0.0  
+  e3fe0cb06570be616838e371a882ddfb_d__Bacteria;p__Proteobacteria;...  811     0.0  
+  b54f8859e6db3a038a430f458bea5595_d__Bacteria;p__Proteobacteria;...  809     0.0  
+  c7e69ea679c4b1eb546808db28592ba2_d__Bacteria;p__Proteobacteria;...  809     0.0  
+
+
+> Acidithiobacillus_ferrooxidans_Yukawa_strain
+Length=1476
+
+ Score = 813 bits (440),  Expect = 0.0
+ Identities = 440/440 (100%), Gaps = 0/440 (0%)
+ Strand=Plus/Plus
+
+Query  1    AGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  331  AGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAA  390
+
+Query  61   GGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  391  GGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTG  450
+
+Query  121  CTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  451  CTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATA  510
+
+Query  181  CGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTA  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  511  CGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTA  570
+
+Query  241  GGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGA  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  571  GGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGA  630
+
+Query  301  GTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGA  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  631  GTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGA  690
+
+Query  361  ACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGG  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  691  ACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGG  750
+
+Query  421  GAGCAAACAGGATTAGATAC  440
+            ||||||||||||||||||||
+Sbjct  751  GAGCAAACAGGATTAGATAC  770
+
+
+> 42b1638923c5d1491958b1767cb378a7_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=441
+
+ Score = 813 bits (440),  Expect = 0.0
+ Identities = 440/440 (100%), Gaps = 0/440 (0%)
+ Strand=Plus/Plus
+
+Query  1    AGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2    AGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAA  61
+
+Query  61   GGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  62   GGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTG  121
+
+Query  121  CTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  122  CTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATA  181
+
+Query  181  CGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTA  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  182  CGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTA  241
+
+Query  241  GGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGA  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  242  GGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGA  301
+
+Query  301  GTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGA  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  302  GTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGA  361
+
+Query  361  ACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGG  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  362  ACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGG  421
+
+Query  421  GAGCAAACAGGATTAGATAC  440
+            ||||||||||||||||||||
+Sbjct  422  GAGCAAACAGGATTAGATAC  441
+
+
+> fd55562a4f61bb6efbd0335c89397531_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=441
+
+ Score = 813 bits (440),  Expect = 0.0
+ Identities = 440/440 (100%), Gaps = 0/440 (0%)
+ Strand=Plus/Plus
+
+Query  1    AGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    AGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAA  60
+
+Query  61   GGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTG  120
+
+Query  121  CTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  CTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATA  180
+
+Query  181  CGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTA  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  CGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTA  240
+
+Query  241  GGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGA  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  GGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGA  300
+
+Query  301  GTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGA  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  GTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGA  360
+
+Query  361  ACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGG  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGG  420
+
+Query  421  GAGCAAACAGGATTAGATAC  440
+            ||||||||||||||||||||
+Sbjct  421  GAGCAAACAGGATTAGATAC  440
+
+
+> b5b43128ebbf50941947052128d2ae81_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=440
+
+ Score = 813 bits (440),  Expect = 0.0
+ Identities = 440/440 (100%), Gaps = 0/440 (0%)
+ Strand=Plus/Plus
+
+Query  1    AGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    AGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAA  60
+
+Query  61   GGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTG  120
+
+Query  121  CTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  CTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATA  180
+
+Query  181  CGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTA  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  CGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTA  240
+
+Query  241  GGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGA  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  GGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGA  300
+
+Query  301  GTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGA  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  GTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGA  360
+
+Query  361  ACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGG  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGG  420
+
+Query  421  GAGCAAACAGGATTAGATAC  440
+            ||||||||||||||||||||
+Sbjct  421  GAGCAAACAGGATTAGATAC  440
+
+
+> e3fe0cb06570be616838e371a882ddfb_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=439
+
+ Score = 811 bits (439),  Expect = 0.0
+ Identities = 439/439 (100%), Gaps = 0/439 (0%)
+ Strand=Plus/Plus
+
+Query  2    GTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAG  61
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    GTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAG  60
+
+Query  62   GCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGC  121
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGC  120
+
+Query  122  TGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATAC  181
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  TGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATAC  180
+
+Query  182  GGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAG  241
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAG  240
+
+Query  242  GTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAG  301
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  GTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAG  300
+
+Query  302  TATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAA  361
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  TATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAA  360
+
+Query  362  CATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGG  421
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  CATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGG  420
+
+Query  422  AGCAAACAGGATTAGATAC  440
+            |||||||||||||||||||
+Sbjct  421  AGCAAACAGGATTAGATAC  439
+
+
+> b54f8859e6db3a038a430f458bea5595_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=439
+
+ Score = 809 bits (438),  Expect = 0.0
+ Identities = 438/438 (100%), Gaps = 0/438 (0%)
+ Strand=Plus/Plus
+
+Query  3    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  62
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+
+Query  63   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  122
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+
+Query  123  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  182
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+
+Query  183  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  242
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+
+Query  243  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  302
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+
+Query  303  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  362
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+
+Query  363  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  422
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+
+Query  423  GCAAACAGGATTAGATAC  440
+            ||||||||||||||||||
+Sbjct  421  GCAAACAGGATTAGATAC  438
+
+
+> c7e69ea679c4b1eb546808db28592ba2_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=438
+
+ Score = 809 bits (438),  Expect = 0.0
+ Identities = 438/438 (100%), Gaps = 0/438 (0%)
+ Strand=Plus/Plus
+
+Query  3    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  62
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+
+Query  63   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  122
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+
+Query  123  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  182
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+
+Query  183  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  242
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+
+Query  243  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  302
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+
+Query  303  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  362
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+
+Query  363  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  422
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+
+Query  423  GCAAACAGGATTAGATAC  440
+            ||||||||||||||||||
+Sbjct  421  GCAAACAGGATTAGATAC  438
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1717821
+
+
+Query= b54f8859e6db3a038a430f458bea5595_d__Bacteria;p__Proteobacteria;c__Ga
+mmaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__
+Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+
+Length=439
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Acidithiobacillus_ferrooxidans_Yukawa_strain                        811     0.0  
+  fd55562a4f61bb6efbd0335c89397531_d__Bacteria;p__Proteobacteria;...  811     0.0  
+  b54f8859e6db3a038a430f458bea5595_d__Bacteria;p__Proteobacteria;...  811     0.0  
+  42b1638923c5d1491958b1767cb378a7_d__Bacteria;p__Proteobacteria;...  809     0.0  
+  b5b43128ebbf50941947052128d2ae81_d__Bacteria;p__Proteobacteria;...  809     0.0  
+  c7e69ea679c4b1eb546808db28592ba2_d__Bacteria;p__Proteobacteria;...  809     0.0  
+  e3fe0cb06570be616838e371a882ddfb_d__Bacteria;p__Proteobacteria;...  809     0.0  
+
+
+> Acidithiobacillus_ferrooxidans_Yukawa_strain
+Length=1476
+
+ Score = 811 bits (439),  Expect = 0.0
+ Identities = 439/439 (100%), Gaps = 0/439 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  333  TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  392
+
+Query  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  393  CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  452
+
+Query  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  453  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  512
+
+Query  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  513  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  572
+
+Query  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  573  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  632
+
+Query  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  633  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  692
+
+Query  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  693  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  752
+
+Query  421  GCAAACAGGATTAGATACC  439
+            |||||||||||||||||||
+Sbjct  753  GCAAACAGGATTAGATACC  771
+
+
+> fd55562a4f61bb6efbd0335c89397531_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=441
+
+ Score = 811 bits (439),  Expect = 0.0
+ Identities = 439/439 (100%), Gaps = 0/439 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  62
+
+Query  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  63   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  122
+
+Query  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  123  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  182
+
+Query  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  183  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  242
+
+Query  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  243  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  302
+
+Query  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  303  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  362
+
+Query  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  363  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  422
+
+Query  421  GCAAACAGGATTAGATACC  439
+            |||||||||||||||||||
+Sbjct  423  GCAAACAGGATTAGATACC  441
+
+
+> b54f8859e6db3a038a430f458bea5595_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=439
+
+ Score = 811 bits (439),  Expect = 0.0
+ Identities = 439/439 (100%), Gaps = 0/439 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+
+Query  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+
+Query  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+
+Query  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+
+Query  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+
+Query  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+
+Query  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+
+Query  421  GCAAACAGGATTAGATACC  439
+            |||||||||||||||||||
+Sbjct  421  GCAAACAGGATTAGATACC  439
+
+
+> 42b1638923c5d1491958b1767cb378a7_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=441
+
+ Score = 809 bits (438),  Expect = 0.0
+ Identities = 438/438 (100%), Gaps = 0/438 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  4    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  63
+
+Query  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  64   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  123
+
+Query  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  124  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  183
+
+Query  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  184  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  243
+
+Query  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  244  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  303
+
+Query  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  304  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  363
+
+Query  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  364  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  423
+
+Query  421  GCAAACAGGATTAGATAC  438
+            ||||||||||||||||||
+Sbjct  424  GCAAACAGGATTAGATAC  441
+
+
+> b5b43128ebbf50941947052128d2ae81_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=440
+
+ Score = 809 bits (438),  Expect = 0.0
+ Identities = 438/438 (100%), Gaps = 0/438 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  62
+
+Query  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  63   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  122
+
+Query  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  123  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  182
+
+Query  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  183  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  242
+
+Query  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  243  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  302
+
+Query  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  303  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  362
+
+Query  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  363  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  422
+
+Query  421  GCAAACAGGATTAGATAC  438
+            ||||||||||||||||||
+Sbjct  423  GCAAACAGGATTAGATAC  440
+
+
+> c7e69ea679c4b1eb546808db28592ba2_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=438
+
+ Score = 809 bits (438),  Expect = 0.0
+ Identities = 438/438 (100%), Gaps = 0/438 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+
+Query  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+
+Query  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+
+Query  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+
+Query  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+
+Query  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+
+Query  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+
+Query  421  GCAAACAGGATTAGATAC  438
+            ||||||||||||||||||
+Sbjct  421  GCAAACAGGATTAGATAC  438
+
+
+> e3fe0cb06570be616838e371a882ddfb_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=439
+
+ Score = 809 bits (438),  Expect = 0.0
+ Identities = 438/438 (100%), Gaps = 0/438 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  61
+
+Query  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  62   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  121
+
+Query  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  122  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  181
+
+Query  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  182  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  241
+
+Query  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  242  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  301
+
+Query  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  302  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  361
+
+Query  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  362  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  421
+
+Query  421  GCAAACAGGATTAGATAC  438
+            ||||||||||||||||||
+Sbjct  422  GCAAACAGGATTAGATAC  439
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1713798
+
+
+Query= fd55562a4f61bb6efbd0335c89397531_d__Bacteria;p__Proteobacteria;c__Ga
+mmaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__
+Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+
+Length=441
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Acidithiobacillus_ferrooxidans_Yukawa_strain                        815     0.0  
+  fd55562a4f61bb6efbd0335c89397531_d__Bacteria;p__Proteobacteria;...  815     0.0  
+  42b1638923c5d1491958b1767cb378a7_d__Bacteria;p__Proteobacteria;...  813     0.0  
+  b5b43128ebbf50941947052128d2ae81_d__Bacteria;p__Proteobacteria;...  813     0.0  
+  b54f8859e6db3a038a430f458bea5595_d__Bacteria;p__Proteobacteria;...  811     0.0  
+  e3fe0cb06570be616838e371a882ddfb_d__Bacteria;p__Proteobacteria;...  811     0.0  
+  c7e69ea679c4b1eb546808db28592ba2_d__Bacteria;p__Proteobacteria;...  809     0.0  
+
+
+> Acidithiobacillus_ferrooxidans_Yukawa_strain
+Length=1476
+
+ Score = 815 bits (441),  Expect = 0.0
+ Identities = 441/441 (100%), Gaps = 0/441 (0%)
+ Strand=Plus/Plus
+
+Query  1    AGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  331  AGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAA  390
+
+Query  61   GGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  391  GGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTG  450
+
+Query  121  CTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  451  CTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATA  510
+
+Query  181  CGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTA  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  511  CGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTA  570
+
+Query  241  GGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGA  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  571  GGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGA  630
+
+Query  301  GTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGA  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  631  GTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGA  690
+
+Query  361  ACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGG  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  691  ACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGG  750
+
+Query  421  GAGCAAACAGGATTAGATACC  441
+            |||||||||||||||||||||
+Sbjct  751  GAGCAAACAGGATTAGATACC  771
+
+
+> fd55562a4f61bb6efbd0335c89397531_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=441
+
+ Score = 815 bits (441),  Expect = 0.0
+ Identities = 441/441 (100%), Gaps = 0/441 (0%)
+ Strand=Plus/Plus
+
+Query  1    AGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    AGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAA  60
+
+Query  61   GGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTG  120
+
+Query  121  CTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  CTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATA  180
+
+Query  181  CGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTA  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  CGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTA  240
+
+Query  241  GGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGA  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  GGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGA  300
+
+Query  301  GTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGA  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  GTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGA  360
+
+Query  361  ACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGG  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGG  420
+
+Query  421  GAGCAAACAGGATTAGATACC  441
+            |||||||||||||||||||||
+Sbjct  421  GAGCAAACAGGATTAGATACC  441
+
+
+> 42b1638923c5d1491958b1767cb378a7_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=441
+
+ Score = 813 bits (440),  Expect = 0.0
+ Identities = 440/440 (100%), Gaps = 0/440 (0%)
+ Strand=Plus/Plus
+
+Query  1    AGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2    AGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAA  61
+
+Query  61   GGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  62   GGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTG  121
+
+Query  121  CTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  122  CTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATA  181
+
+Query  181  CGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTA  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  182  CGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTA  241
+
+Query  241  GGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGA  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  242  GGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGA  301
+
+Query  301  GTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGA  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  302  GTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGA  361
+
+Query  361  ACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGG  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  362  ACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGG  421
+
+Query  421  GAGCAAACAGGATTAGATAC  440
+            ||||||||||||||||||||
+Sbjct  422  GAGCAAACAGGATTAGATAC  441
+
+
+> b5b43128ebbf50941947052128d2ae81_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=440
+
+ Score = 813 bits (440),  Expect = 0.0
+ Identities = 440/440 (100%), Gaps = 0/440 (0%)
+ Strand=Plus/Plus
+
+Query  1    AGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    AGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAA  60
+
+Query  61   GGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTG  120
+
+Query  121  CTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  CTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATA  180
+
+Query  181  CGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTA  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  CGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTA  240
+
+Query  241  GGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGA  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  GGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGA  300
+
+Query  301  GTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGA  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  GTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGA  360
+
+Query  361  ACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGG  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGG  420
+
+Query  421  GAGCAAACAGGATTAGATAC  440
+            ||||||||||||||||||||
+Sbjct  421  GAGCAAACAGGATTAGATAC  440
+
+
+> b54f8859e6db3a038a430f458bea5595_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=439
+
+ Score = 811 bits (439),  Expect = 0.0
+ Identities = 439/439 (100%), Gaps = 0/439 (0%)
+ Strand=Plus/Plus
+
+Query  3    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  62
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+
+Query  63   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  122
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+
+Query  123  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  182
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+
+Query  183  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  242
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+
+Query  243  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  302
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+
+Query  303  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  362
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+
+Query  363  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  422
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+
+Query  423  GCAAACAGGATTAGATACC  441
+            |||||||||||||||||||
+Sbjct  421  GCAAACAGGATTAGATACC  439
+
+
+> e3fe0cb06570be616838e371a882ddfb_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=439
+
+ Score = 811 bits (439),  Expect = 0.0
+ Identities = 439/439 (100%), Gaps = 0/439 (0%)
+ Strand=Plus/Plus
+
+Query  2    GTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAG  61
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    GTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAG  60
+
+Query  62   GCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGC  121
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGC  120
+
+Query  122  TGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATAC  181
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  TGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATAC  180
+
+Query  182  GGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAG  241
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAG  240
+
+Query  242  GTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAG  301
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  GTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAG  300
+
+Query  302  TATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAA  361
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  TATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAA  360
+
+Query  362  CATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGG  421
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  CATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGG  420
+
+Query  422  AGCAAACAGGATTAGATAC  440
+            |||||||||||||||||||
+Sbjct  421  AGCAAACAGGATTAGATAC  439
+
+
+> c7e69ea679c4b1eb546808db28592ba2_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=438
+
+ Score = 809 bits (438),  Expect = 0.0
+ Identities = 438/438 (100%), Gaps = 0/438 (0%)
+ Strand=Plus/Plus
+
+Query  3    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  62
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+
+Query  63   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  122
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+
+Query  123  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  182
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+
+Query  183  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  242
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+
+Query  243  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  302
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+
+Query  303  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  362
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+
+Query  363  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  422
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+
+Query  423  GCAAACAGGATTAGATAC  440
+            ||||||||||||||||||
+Sbjct  421  GCAAACAGGATTAGATAC  438
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1721844
+
+
+Query= 42b1638923c5d1491958b1767cb378a7_d__Bacteria;p__Proteobacteria;c__Ga
+mmaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__
+Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+
+Length=441
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Acidithiobacillus_ferrooxidans_Yukawa_strain                        815     0.0  
+  42b1638923c5d1491958b1767cb378a7_d__Bacteria;p__Proteobacteria;...  815     0.0  
+  fd55562a4f61bb6efbd0335c89397531_d__Bacteria;p__Proteobacteria;...  813     0.0  
+  b5b43128ebbf50941947052128d2ae81_d__Bacteria;p__Proteobacteria;...  813     0.0  
+  e3fe0cb06570be616838e371a882ddfb_d__Bacteria;p__Proteobacteria;...  811     0.0  
+  b54f8859e6db3a038a430f458bea5595_d__Bacteria;p__Proteobacteria;...  809     0.0  
+  c7e69ea679c4b1eb546808db28592ba2_d__Bacteria;p__Proteobacteria;...  809     0.0  
+
+
+> Acidithiobacillus_ferrooxidans_Yukawa_strain
+Length=1476
+
+ Score = 815 bits (441),  Expect = 0.0
+ Identities = 441/441 (100%), Gaps = 0/441 (0%)
+ Strand=Plus/Plus
+
+Query  1    CAGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  330  CAGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGA  389
+
+Query  61   AGGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  390  AGGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCT  449
+
+Query  121  GCTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAAT  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  450  GCTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAAT  509
+
+Query  181  ACGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTT  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  510  ACGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTT  569
+
+Query  241  AGGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAG  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  570  AGGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAG  629
+
+Query  301  AGTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGG  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  630  AGTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGG  689
+
+Query  361  AACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGG  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  690  AACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGG  749
+
+Query  421  GGAGCAAACAGGATTAGATAC  441
+            |||||||||||||||||||||
+Sbjct  750  GGAGCAAACAGGATTAGATAC  770
+
+
+> 42b1638923c5d1491958b1767cb378a7_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=441
+
+ Score = 815 bits (441),  Expect = 0.0
+ Identities = 441/441 (100%), Gaps = 0/441 (0%)
+ Strand=Plus/Plus
+
+Query  1    CAGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    CAGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGA  60
+
+Query  61   AGGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   AGGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCT  120
+
+Query  121  GCTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAAT  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  GCTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAAT  180
+
+Query  181  ACGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTT  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  ACGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTT  240
+
+Query  241  AGGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAG  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  AGGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAG  300
+
+Query  301  AGTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGG  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  AGTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGG  360
+
+Query  361  AACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGG  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  AACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGG  420
+
+Query  421  GGAGCAAACAGGATTAGATAC  441
+            |||||||||||||||||||||
+Sbjct  421  GGAGCAAACAGGATTAGATAC  441
+
+
+> fd55562a4f61bb6efbd0335c89397531_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=441
+
+ Score = 813 bits (440),  Expect = 0.0
+ Identities = 440/440 (100%), Gaps = 0/440 (0%)
+ Strand=Plus/Plus
+
+Query  2    AGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAA  61
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    AGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAA  60
+
+Query  62   GGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTG  121
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTG  120
+
+Query  122  CTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATA  181
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  CTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATA  180
+
+Query  182  CGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTA  241
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  CGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTA  240
+
+Query  242  GGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGA  301
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  GGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGA  300
+
+Query  302  GTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGA  361
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  GTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGA  360
+
+Query  362  ACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGG  421
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGG  420
+
+Query  422  GAGCAAACAGGATTAGATAC  441
+            ||||||||||||||||||||
+Sbjct  421  GAGCAAACAGGATTAGATAC  440
+
+
+> b5b43128ebbf50941947052128d2ae81_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=440
+
+ Score = 813 bits (440),  Expect = 0.0
+ Identities = 440/440 (100%), Gaps = 0/440 (0%)
+ Strand=Plus/Plus
+
+Query  2    AGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAA  61
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    AGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAA  60
+
+Query  62   GGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTG  121
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTG  120
+
+Query  122  CTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATA  181
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  CTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATA  180
+
+Query  182  CGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTA  241
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  CGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTA  240
+
+Query  242  GGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGA  301
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  GGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGA  300
+
+Query  302  GTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGA  361
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  GTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGA  360
+
+Query  362  ACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGG  421
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGG  420
+
+Query  422  GAGCAAACAGGATTAGATAC  441
+            ||||||||||||||||||||
+Sbjct  421  GAGCAAACAGGATTAGATAC  440
+
+
+> e3fe0cb06570be616838e371a882ddfb_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=439
+
+ Score = 811 bits (439),  Expect = 0.0
+ Identities = 439/439 (100%), Gaps = 0/439 (0%)
+ Strand=Plus/Plus
+
+Query  3    GTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAG  62
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    GTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAG  60
+
+Query  63   GCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGC  122
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGC  120
+
+Query  123  TGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATAC  182
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  TGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATAC  180
+
+Query  183  GGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAG  242
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAG  240
+
+Query  243  GTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAG  302
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  GTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAG  300
+
+Query  303  TATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAA  362
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  TATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAA  360
+
+Query  363  CATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGG  422
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  CATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGG  420
+
+Query  423  AGCAAACAGGATTAGATAC  441
+            |||||||||||||||||||
+Sbjct  421  AGCAAACAGGATTAGATAC  439
+
+
+> b54f8859e6db3a038a430f458bea5595_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=439
+
+ Score = 809 bits (438),  Expect = 0.0
+ Identities = 438/438 (100%), Gaps = 0/438 (0%)
+ Strand=Plus/Plus
+
+Query  4    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  63
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+
+Query  64   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  123
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+
+Query  124  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  183
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+
+Query  184  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  243
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+
+Query  244  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  303
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+
+Query  304  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  363
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+
+Query  364  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  423
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+
+Query  424  GCAAACAGGATTAGATAC  441
+            ||||||||||||||||||
+Sbjct  421  GCAAACAGGATTAGATAC  438
+
+
+> c7e69ea679c4b1eb546808db28592ba2_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=438
+
+ Score = 809 bits (438),  Expect = 0.0
+ Identities = 438/438 (100%), Gaps = 0/438 (0%)
+ Strand=Plus/Plus
+
+Query  4    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  63
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+
+Query  64   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  123
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+
+Query  124  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  183
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+
+Query  184  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  243
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+
+Query  244  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  303
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+
+Query  304  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  363
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+
+Query  364  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  423
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+
+Query  424  GCAAACAGGATTAGATAC  441
+            ||||||||||||||||||
+Sbjct  421  GCAAACAGGATTAGATAC  438
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1721844
+
+
+Query= Acidithiobacillus_ferrooxidans_Yukawa_strain
+
+Length=1476
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Acidithiobacillus_ferrooxidans_Yukawa_strain                        2726    0.0  
+  42b1638923c5d1491958b1767cb378a7_d__Bacteria;p__Proteobacteria;...  815     0.0  
+  fd55562a4f61bb6efbd0335c89397531_d__Bacteria;p__Proteobacteria;...  815     0.0  
+  b5b43128ebbf50941947052128d2ae81_d__Bacteria;p__Proteobacteria;...  813     0.0  
+  b54f8859e6db3a038a430f458bea5595_d__Bacteria;p__Proteobacteria;...  811     0.0  
+  e3fe0cb06570be616838e371a882ddfb_d__Bacteria;p__Proteobacteria;...  811     0.0  
+  c7e69ea679c4b1eb546808db28592ba2_d__Bacteria;p__Proteobacteria;...  809     0.0  
+
+
+> Acidithiobacillus_ferrooxidans_Yukawa_strain
+Length=1476
+
+ Score = 2726 bits (1476),  Expect = 0.0
+ Identities = 1476/1476 (100%), Gaps = 0/1476 (0%)
+ Strand=Plus/Plus
+
+Query  1     CATGGCTCAGATTGAACGCTGGCGGCATGCCTAACACATGCAAGTCGAACGGTAACAGGT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1     CATGGCTCAGATTGAACGCTGGCGGCATGCCTAACACATGCAAGTCGAACGGTAACAGGT  60
+
+Query  61    CTTCGGATGCTGACGAGTGGCGGACGGGTGAGTAATGCGTAGGAATCTGTCTTTTAGTGG  120
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61    CTTCGGATGCTGACGAGTGGCGGACGGGTGAGTAATGCGTAGGAATCTGTCTTTTAGTGG  120
+
+Query  121   GGGACAACCCAGGGAAACTTGGGCTAATACCGCATGAGCCCTGAGGGGGAAAGCGGGGGA  180
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121   GGGACAACCCAGGGAAACTTGGGCTAATACCGCATGAGCCCTGAGGGGGAAAGCGGGGGA  180
+
+Query  181   TCTTCGGACCTCGCGCTAAGAGAGGAGCCTACGTCCGATTAGCTAGTTGGCGGGGTAAAG  240
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181   TCTTCGGACCTCGCGCTAAGAGAGGAGCCTACGTCCGATTAGCTAGTTGGCGGGGTAAAG  240
+
+Query  241   GCCCACCAAGGCGACGATCGGTAGCTGGTCTGAGAGGACGACCAGCCACACTGGGACTGA  300
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241   GCCCACCAAGGCGACGATCGGTAGCTGGTCTGAGAGGACGACCAGCCACACTGGGACTGA  300
+
+Query  301   GACACGGCCCAGACTCCTACGGGAGGCAGCAGTGGGGAATTTTTCGCAATGGGGGCAACC  360
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301   GACACGGCCCAGACTCCTACGGGAGGCAGCAGTGGGGAATTTTTCGCAATGGGGGCAACC  360
+
+Query  361   CTGACGAAGCAATGCCGCGTGGATGAAGAAGGCCTTCGGGTTGTAAAGTCCTTTCGTGGA  420
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361   CTGACGAAGCAATGCCGCGTGGATGAAGAAGGCCTTCGGGTTGTAAAGTCCTTTCGTGGA  420
+
+Query  421   GGACGAAAAGGTGGGTTCTAATACAATCTGCTGTTGACGTGAATCCAAGAAGAAGCACCG  480
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  421   GGACGAAAAGGTGGGTTCTAATACAATCTGCTGTTGACGTGAATCCAAGAAGAAGCACCG  480
+
+Query  481   GCTAACTCCGTGCCAGCAGCCGCGGTAATACGGGGGGTGCAAGCGTTAATCGGAATCACT  540
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  481   GCTAACTCCGTGCCAGCAGCCGCGGTAATACGGGGGGTGCAAGCGTTAATCGGAATCACT  540
+
+Query  541   GGGCGTAAAGGGTGCGTAGGCGGTACGTTAGGTCTGTCGTGAAATCCCCGGGCTCAACCT  600
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  541   GGGCGTAAAGGGTGCGTAGGCGGTACGTTAGGTCTGTCGTGAAATCCCCGGGCTCAACCT  600
+
+Query  601   GGGAATGGCGGTAGAAACCGGCGCACTAGAGTATGGGAGAGGGTGGTGGAATTCCAGGTG  660
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  601   GGGAATGGCGGTAGAAACCGGCGCACTAGAGTATGGGAGAGGGTGGTGGAATTCCAGGTG  660
+
+Query  661   TAGCGGTGAAATGCGTAGAGATCTGGAGGAACATCAGTGGCGAAGGCGGCCACCTGGCCC  720
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  661   TAGCGGTGAAATGCGTAGAGATCTGGAGGAACATCAGTGGCGAAGGCGGCCACCTGGCCC  720
+
+Query  721   AATACTGACGCTGAGGCACGAAAGCGTGGGGAGCAAACAGGATTAGATACCCTGGTAGTC  780
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  721   AATACTGACGCTGAGGCACGAAAGCGTGGGGAGCAAACAGGATTAGATACCCTGGTAGTC  780
+
+Query  781   CACGCCCTAAACGATGAATACTAGATGTTTGGTGCCTAGCGTACTGAGTGTCGTAGCTAA  840
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  781   CACGCCCTAAACGATGAATACTAGATGTTTGGTGCCTAGCGTACTGAGTGTCGTAGCTAA  840
+
+Query  841   CGCGATAAGTATTCCGCCTGGGAAGTACGGCCGCAAGGTTAAAACTCAAAGGAATTGACG  900
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  841   CGCGATAAGTATTCCGCCTGGGAAGTACGGCCGCAAGGTTAAAACTCAAAGGAATTGACG  900
+
+Query  901   GGGGCCCGCACAAGCGGTGGAGCATGTGGTTTAATTCGATGCAACGCGAAGAACCTTACC  960
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  901   GGGGCCCGCACAAGCGGTGGAGCATGTGGTTTAATTCGATGCAACGCGAAGAACCTTACC  960
+
+Query  961   TGGGCTTGACATGTCCGGAATTCTGCAGAGATGCGGGAGTGCCCTTCGGGGAATCGGAAC  1020
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  961   TGGGCTTGACATGTCCGGAATTCTGCAGAGATGCGGGAGTGCCCTTCGGGGAATCGGAAC  1020
+
+Query  1021  ACAGGTGCTGCATGGCTGTCGTCAGCTCGTGTCGTGAGATGTTGGGTTAAGTCCCGCAAC  1080
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1021  ACAGGTGCTGCATGGCTGTCGTCAGCTCGTGTCGTGAGATGTTGGGTTAAGTCCCGCAAC  1080
+
+Query  1081  GAGCGCAACCCTTGTCCTTAGTTGCCAGCGGTTCGGCCGGGCACTCTAGGGAGACTGCCG  1140
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1081  GAGCGCAACCCTTGTCCTTAGTTGCCAGCGGTTCGGCCGGGCACTCTAGGGAGACTGCCG  1140
+
+Query  1141  GTGACAAACCGGAGGAAGGTGGGGATGACGTCAAGTCCTCATGGCCTTTATGTCCAGGGC  1200
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1141  GTGACAAACCGGAGGAAGGTGGGGATGACGTCAAGTCCTCATGGCCTTTATGTCCAGGGC  1200
+
+Query  1201  TACACACGTGCTACAATGGCGCGTACAGAGGGAGGCCAAACCGCGAGGTGGAGCAGACCC  1260
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1201  TACACACGTGCTACAATGGCGCGTACAGAGGGAGGCCAAACCGCGAGGTGGAGCAGACCC  1260
+
+Query  1261  CAGAAAGCGCGTCGTAGTTCGGATTGCAGTCTGCAACTCGACTGCATGAAGTCGGAATCG  1320
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1261  CAGAAAGCGCGTCGTAGTTCGGATTGCAGTCTGCAACTCGACTGCATGAAGTCGGAATCG  1320
+
+Query  1321  CTAGTAATCGCGGATCAGCATGCCGCGGTGAATACGTTCCCGGGCCTTGTACACACCGCC  1380
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1321  CTAGTAATCGCGGATCAGCATGCCGCGGTGAATACGTTCCCGGGCCTTGTACACACCGCC  1380
+
+Query  1381  CGTCACACCATGGGAGTAGATTGTACCAGAAGCAGCTAGCCTAACCTTCGGGAGGGCGGT  1440
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1381  CGTCACACCATGGGAGTAGATTGTACCAGAAGCAGCTAGCCTAACCTTCGGGAGGGCGGT  1440
+
+Query  1441  TACCACGGTATGGTTTATGACTGGGGTGAAGTCGTA  1476
+             ||||||||||||||||||||||||||||||||||||
+Sbjct  1441  TACCACGGTATGGTTTATGACTGGGGTGAAGTCGTA  1476
+
+
+> 42b1638923c5d1491958b1767cb378a7_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=441
+
+ Score = 815 bits (441),  Expect = 0.0
+ Identities = 441/441 (100%), Gaps = 0/441 (0%)
+ Strand=Plus/Plus
+
+Query  330  CAGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGA  389
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    CAGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGA  60
+
+Query  390  AGGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCT  449
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   AGGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCT  120
+
+Query  450  GCTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAAT  509
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  GCTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAAT  180
+
+Query  510  ACGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTT  569
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  ACGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTT  240
+
+Query  570  AGGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAG  629
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  AGGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAG  300
+
+Query  630  AGTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGG  689
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  AGTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGG  360
+
+Query  690  AACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGG  749
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  AACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGG  420
+
+Query  750  GGAGCAAACAGGATTAGATAC  770
+            |||||||||||||||||||||
+Sbjct  421  GGAGCAAACAGGATTAGATAC  441
+
+
+> fd55562a4f61bb6efbd0335c89397531_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=441
+
+ Score = 815 bits (441),  Expect = 0.0
+ Identities = 441/441 (100%), Gaps = 0/441 (0%)
+ Strand=Plus/Plus
+
+Query  331  AGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAA  390
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    AGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAA  60
+
+Query  391  GGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTG  450
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTG  120
+
+Query  451  CTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATA  510
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  CTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATA  180
+
+Query  511  CGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTA  570
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  CGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTA  240
+
+Query  571  GGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGA  630
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  GGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGA  300
+
+Query  631  GTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGA  690
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  GTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGA  360
+
+Query  691  ACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGG  750
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGG  420
+
+Query  751  GAGCAAACAGGATTAGATACC  771
+            |||||||||||||||||||||
+Sbjct  421  GAGCAAACAGGATTAGATACC  441
+
+
+> b5b43128ebbf50941947052128d2ae81_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=440
+
+ Score = 813 bits (440),  Expect = 0.0
+ Identities = 440/440 (100%), Gaps = 0/440 (0%)
+ Strand=Plus/Plus
+
+Query  331  AGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAA  390
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    AGTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAA  60
+
+Query  391  GGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTG  450
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GGCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTG  120
+
+Query  451  CTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATA  510
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  CTGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATA  180
+
+Query  511  CGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTA  570
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  CGGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTA  240
+
+Query  571  GGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGA  630
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  GGTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGA  300
+
+Query  631  GTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGA  690
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  GTATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGA  360
+
+Query  691  ACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGG  750
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ACATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGG  420
+
+Query  751  GAGCAAACAGGATTAGATAC  770
+            ||||||||||||||||||||
+Sbjct  421  GAGCAAACAGGATTAGATAC  440
+
+
+> b54f8859e6db3a038a430f458bea5595_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=439
+
+ Score = 811 bits (439),  Expect = 0.0
+ Identities = 439/439 (100%), Gaps = 0/439 (0%)
+ Strand=Plus/Plus
+
+Query  333  TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  392
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+
+Query  393  CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  452
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+
+Query  453  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  512
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+
+Query  513  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  572
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+
+Query  573  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  632
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+
+Query  633  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  692
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+
+Query  693  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  752
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+
+Query  753  GCAAACAGGATTAGATACC  771
+            |||||||||||||||||||
+Sbjct  421  GCAAACAGGATTAGATACC  439
+
+
+> e3fe0cb06570be616838e371a882ddfb_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=439
+
+ Score = 811 bits (439),  Expect = 0.0
+ Identities = 439/439 (100%), Gaps = 0/439 (0%)
+ Strand=Plus/Plus
+
+Query  332  GTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAG  391
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    GTGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAG  60
+
+Query  392  GCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGC  451
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GCCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGC  120
+
+Query  452  TGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATAC  511
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  TGTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATAC  180
+
+Query  512  GGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAG  571
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GGGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAG  240
+
+Query  572  GTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAG  631
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  GTCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAG  300
+
+Query  632  TATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAA  691
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  TATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAA  360
+
+Query  692  CATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGG  751
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  CATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGG  420
+
+Query  752  AGCAAACAGGATTAGATAC  770
+            |||||||||||||||||||
+Sbjct  421  AGCAAACAGGATTAGATAC  439
+
+
+> c7e69ea679c4b1eb546808db28592ba2_d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Acidithiobacillales;f__Acidithiobacillaceae;g__Acidithiobacillus;s__Acidithiobacillus_ferrooxidans
+Length=438
+
+ Score = 809 bits (438),  Expect = 0.0
+ Identities = 438/438 (100%), Gaps = 0/438 (0%)
+ Strand=Plus/Plus
+
+Query  333  TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  392
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TGGGGAATTTTTCGCAATGGGGGCAACCCTGACGAAGCAATGCCGCGTGGATGAAGAAGG  60
+
+Query  393  CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  452
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   CCTTCGGGTTGTAAAGTCCTTTCGTGGAGGACGAAAAGGTGGGTTCTAATACAATCTGCT  120
+
+Query  453  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  512
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  GTTGACGTGAATCCAAGAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACG  180
+
+Query  513  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  572
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GGGGGTGCAAGCGTTAATCGGAATCACTGGGCGTAAAGGGTGCGTAGGCGGTACGTTAGG  240
+
+Query  573  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  632
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCTGTCGTGAAATCCCCGGGCTCAACCTGGGAATGGCGGTAGAAACCGGCGCACTAGAGT  300
+
+Query  633  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  692
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  ATGGGAGAGGGTGGTGGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAAC  360
+
+Query  693  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  752
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ATCAGTGGCGAAGGCGGCCACCTGGCCCAATACTGACGCTGAGGCACGAAAGCGTGGGGA  420
+
+Query  753  GCAAACAGGATTAGATAC  770
+            ||||||||||||||||||
+Sbjct  421  GCAAACAGGATTAGATAC  438
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 5857149
+
+
+  Database: rep-seqs-dada2_trunc-
+len_200_sequences_rename_Acidithiobacillus_ferrooxidans.fasta
+    Posted date:  Aug 25, 2024  8:27 PM
+  Number of letters in database: 4,114
+  Number of sequences in database:  7
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

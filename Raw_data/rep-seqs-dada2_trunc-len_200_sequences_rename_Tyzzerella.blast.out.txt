@@ -1,0 +1,1123 @@
+BLASTN 2.6.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: rep-seqs-dada2_trunc-len_200_sequences_rename_Tyzzerella.fasta
+           5 sequences; 3,130 total letters
+
+
+
+Query= 41b1165d1f97e8e80b4862b04ae083ff_d__Bacteria;p__Firmicutes;c__Clostr
+idia;o__Lachnospirales;f__Lachnospiraceae;g__Tyzzerella
+
+Length=416
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  879940da3a259799c710f1acde0f42ba_d__Bacteria;p__Firmicutes;c__C...  769     0.0  
+  41b1165d1f97e8e80b4862b04ae083ff_d__Bacteria;p__Firmicutes;c__C...  769     0.0  
+  e4e0545266286b127430838731d61681_d__Bacteria;p__Firmicutes;c__C...  767     0.0  
+  a5709007aefa7b3018eefcb9ec1e745c_d__Bacteria;p__Firmicutes;c__C...  767     0.0  
+  Anaeropeptidivorans_sp._Yukawa_strain                               763     0.0  
+
+
+> 879940da3a259799c710f1acde0f42ba_d__Bacteria;p__Firmicutes;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Tyzzerella
+Length=421
+
+ Score = 769 bits (416),  Expect = 0.0
+ Identities = 416/416 (100%), Gaps = 0/416 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3    TGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAAGG  62
+
+Query  61   TTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGAAG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  63   TTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGAAG  122
+
+Query  121  CCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGGAA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  123  CCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGGAA  182
+
+Query  181  TTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGCTC  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  183  TTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGCTC  242
+
+Query  241  AACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATTCC  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  243  AACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATTCC  302
+
+Query  301  TAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTACT  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  303  TAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTACT  362
+
+Query  361  GGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATACC  416
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  363  GGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATACC  418
+
+
+> 41b1165d1f97e8e80b4862b04ae083ff_d__Bacteria;p__Firmicutes;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Tyzzerella
+Length=416
+
+ Score = 769 bits (416),  Expect = 0.0
+ Identities = 416/416 (100%), Gaps = 0/416 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAAGG  60
+
+Query  61   TTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGAAG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   TTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGAAG  120
+
+Query  121  CCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGGAA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  CCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGGAA  180
+
+Query  181  TTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGCTC  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  TTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGCTC  240
+
+Query  241  AACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATTCC  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  AACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATTCC  300
+
+Query  301  TAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTACT  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  TAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTACT  360
+
+Query  361  GGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATACC  416
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  GGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATACC  416
+
+
+> e4e0545266286b127430838731d61681_d__Bacteria;p__Firmicutes;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Tyzzerella
+Length=418
+
+ Score = 767 bits (415),  Expect = 0.0
+ Identities = 415/415 (100%), Gaps = 0/415 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  4    TGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAAGG  63
+
+Query  61   TTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGAAG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  64   TTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGAAG  123
+
+Query  121  CCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGGAA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  124  CCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGGAA  183
+
+Query  181  TTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGCTC  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  184  TTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGCTC  243
+
+Query  241  AACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATTCC  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  244  AACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATTCC  303
+
+Query  301  TAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTACT  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  304  TAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTACT  363
+
+Query  361  GGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  415
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  364  GGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  418
+
+
+> a5709007aefa7b3018eefcb9ec1e745c_d__Bacteria;p__Firmicutes;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Tyzzerella
+Length=417
+
+ Score = 767 bits (415),  Expect = 0.0
+ Identities = 415/415 (100%), Gaps = 0/415 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3    TGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAAGG  62
+
+Query  61   TTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGAAG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  63   TTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGAAG  122
+
+Query  121  CCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGGAA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  123  CCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGGAA  182
+
+Query  181  TTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGCTC  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  183  TTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGCTC  242
+
+Query  241  AACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATTCC  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  243  AACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATTCC  302
+
+Query  301  TAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTACT  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  303  TAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTACT  362
+
+Query  361  GGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  415
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  363  GGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  417
+
+
+> Anaeropeptidivorans_sp._Yukawa_strain
+Length=1458
+
+ Score = 763 bits (413),  Expect = 0.0
+ Identities = 416/417 (99%), Gaps = 1/417 (0%)
+ Strand=Plus/Plus
+
+Query  1    TGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAAGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  338  TGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAAGG  397
+
+Query  61   TTTTCGGATCGTAAACTTCTATCAACGGGGAAGAA-AAAATGACGGTACCCGAATAAGAA  119
+            ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||
+Sbjct  398  TTTTCGGATCGTAAACTTCTATCAACGGGGAAGAATAAAATGACGGTACCCGAATAAGAA  457
+
+Query  120  GCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGGA  179
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  458  GCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGGA  517
+
+Query  180  ATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGCT  239
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  518  ATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGCT  577
+
+Query  240  CAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATTC  299
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  578  CAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATTC  637
+
+Query  300  CTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTAC  359
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  638  CTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTAC  697
+
+Query  360  TGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATACC  416
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  698  TGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATACC  754
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1235195
+
+
+Query= a5709007aefa7b3018eefcb9ec1e745c_d__Bacteria;p__Firmicutes;c__Clostr
+idia;o__Lachnospirales;f__Lachnospiraceae;g__Tyzzerella
+
+Length=417
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  879940da3a259799c710f1acde0f42ba_d__Bacteria;p__Firmicutes;c__C...  771     0.0  
+  e4e0545266286b127430838731d61681_d__Bacteria;p__Firmicutes;c__C...  771     0.0  
+  a5709007aefa7b3018eefcb9ec1e745c_d__Bacteria;p__Firmicutes;c__C...  771     0.0  
+  41b1165d1f97e8e80b4862b04ae083ff_d__Bacteria;p__Firmicutes;c__C...  767     0.0  
+  Anaeropeptidivorans_sp._Yukawa_strain                               765     0.0  
+
+
+> 879940da3a259799c710f1acde0f42ba_d__Bacteria;p__Firmicutes;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Tyzzerella
+Length=421
+
+ Score = 771 bits (417),  Expect = 0.0
+ Identities = 417/417 (100%), Gaps = 0/417 (0%)
+ Strand=Plus/Plus
+
+Query  1    AGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    AGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAA  60
+
+Query  61   GGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGA  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGA  120
+
+Query  121  AGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  AGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGG  180
+
+Query  181  AATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGC  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  AATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGC  240
+
+Query  241  TCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATT  300
+
+Query  301  CCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTA  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  CCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTA  360
+
+Query  361  CTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  417
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  CTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  417
+
+
+> e4e0545266286b127430838731d61681_d__Bacteria;p__Firmicutes;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Tyzzerella
+Length=418
+
+ Score = 771 bits (417),  Expect = 0.0
+ Identities = 417/417 (100%), Gaps = 0/417 (0%)
+ Strand=Plus/Plus
+
+Query  1    AGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2    AGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAA  61
+
+Query  61   GGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGA  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  62   GGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGA  121
+
+Query  121  AGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  122  AGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGG  181
+
+Query  181  AATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGC  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  182  AATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGC  241
+
+Query  241  TCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  242  TCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATT  301
+
+Query  301  CCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTA  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  302  CCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTA  361
+
+Query  361  CTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  417
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  362  CTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  418
+
+
+> a5709007aefa7b3018eefcb9ec1e745c_d__Bacteria;p__Firmicutes;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Tyzzerella
+Length=417
+
+ Score = 771 bits (417),  Expect = 0.0
+ Identities = 417/417 (100%), Gaps = 0/417 (0%)
+ Strand=Plus/Plus
+
+Query  1    AGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    AGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAA  60
+
+Query  61   GGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGA  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGA  120
+
+Query  121  AGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  AGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGG  180
+
+Query  181  AATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGC  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  AATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGC  240
+
+Query  241  TCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATT  300
+
+Query  301  CCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTA  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  CCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTA  360
+
+Query  361  CTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  417
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  CTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  417
+
+
+> 41b1165d1f97e8e80b4862b04ae083ff_d__Bacteria;p__Firmicutes;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Tyzzerella
+Length=416
+
+ Score = 767 bits (415),  Expect = 0.0
+ Identities = 415/415 (100%), Gaps = 0/415 (0%)
+ Strand=Plus/Plus
+
+Query  3    TGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAAGG  62
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAAGG  60
+
+Query  63   TTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGAAG  122
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   TTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGAAG  120
+
+Query  123  CCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGGAA  182
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  CCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGGAA  180
+
+Query  183  TTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGCTC  242
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  TTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGCTC  240
+
+Query  243  AACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATTCC  302
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  AACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATTCC  300
+
+Query  303  TAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTACT  362
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  TAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTACT  360
+
+Query  363  GGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  417
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  GGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  415
+
+
+> Anaeropeptidivorans_sp._Yukawa_strain
+Length=1458
+
+ Score = 765 bits (414),  Expect = 0.0
+ Identities = 417/418 (99%), Gaps = 1/418 (0%)
+ Strand=Plus/Plus
+
+Query  1    AGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  336  AGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAA  395
+
+Query  61   GGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAA-AAAATGACGGTACCCGAATAAG  119
+            ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||
+Sbjct  396  GGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAATAAAATGACGGTACCCGAATAAG  455
+
+Query  120  AAGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCG  179
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  456  AAGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCG  515
+
+Query  180  GAATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAG  239
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  516  GAATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAG  575
+
+Query  240  CTCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAAT  299
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  576  CTCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAAT  635
+
+Query  300  TCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTT  359
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  636  TCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTT  695
+
+Query  360  ACTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  417
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  696  ACTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  753
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1238260
+
+
+Query= e4e0545266286b127430838731d61681_d__Bacteria;p__Firmicutes;c__Clostr
+idia;o__Lachnospirales;f__Lachnospiraceae;g__Tyzzerella
+
+Length=418
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  e4e0545266286b127430838731d61681_d__Bacteria;p__Firmicutes;c__C...  773     0.0  
+  879940da3a259799c710f1acde0f42ba_d__Bacteria;p__Firmicutes;c__C...  771     0.0  
+  a5709007aefa7b3018eefcb9ec1e745c_d__Bacteria;p__Firmicutes;c__C...  771     0.0  
+  Anaeropeptidivorans_sp._Yukawa_strain                               767     0.0  
+  41b1165d1f97e8e80b4862b04ae083ff_d__Bacteria;p__Firmicutes;c__C...  767     0.0  
+
+
+> e4e0545266286b127430838731d61681_d__Bacteria;p__Firmicutes;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Tyzzerella
+Length=418
+
+ Score = 773 bits (418),  Expect = 0.0
+ Identities = 418/418 (100%), Gaps = 0/418 (0%)
+ Strand=Plus/Plus
+
+Query  1    CAGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    CAGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGA  60
+
+Query  61   AGGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   AGGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAG  120
+
+Query  121  AAGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  AAGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCG  180
+
+Query  181  GAATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAG  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GAATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAG  240
+
+Query  241  CTCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAAT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  CTCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAAT  300
+
+Query  301  TCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTT  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  TCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTT  360
+
+Query  361  ACTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  418
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  ACTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  418
+
+
+> 879940da3a259799c710f1acde0f42ba_d__Bacteria;p__Firmicutes;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Tyzzerella
+Length=421
+
+ Score = 771 bits (417),  Expect = 0.0
+ Identities = 417/417 (100%), Gaps = 0/417 (0%)
+ Strand=Plus/Plus
+
+Query  2    AGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAA  61
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    AGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAA  60
+
+Query  62   GGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGA  121
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGA  120
+
+Query  122  AGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGG  181
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  AGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGG  180
+
+Query  182  AATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGC  241
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  AATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGC  240
+
+Query  242  TCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATT  301
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATT  300
+
+Query  302  CCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTA  361
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  CCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTA  360
+
+Query  362  CTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  418
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  CTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  417
+
+
+> a5709007aefa7b3018eefcb9ec1e745c_d__Bacteria;p__Firmicutes;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Tyzzerella
+Length=417
+
+ Score = 771 bits (417),  Expect = 0.0
+ Identities = 417/417 (100%), Gaps = 0/417 (0%)
+ Strand=Plus/Plus
+
+Query  2    AGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAA  61
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    AGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAA  60
+
+Query  62   GGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGA  121
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGA  120
+
+Query  122  AGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGG  181
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  AGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGG  180
+
+Query  182  AATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGC  241
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  AATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGC  240
+
+Query  242  TCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATT  301
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATT  300
+
+Query  302  CCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTA  361
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  CCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTA  360
+
+Query  362  CTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  418
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  CTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  417
+
+
+> Anaeropeptidivorans_sp._Yukawa_strain
+Length=1458
+
+ Score = 767 bits (415),  Expect = 0.0
+ Identities = 418/419 (99%), Gaps = 1/419 (0%)
+ Strand=Plus/Plus
+
+Query  1    CAGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  335  CAGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGA  394
+
+Query  61   AGGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAA-AAAATGACGGTACCCGAATAA  119
+            |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||
+Sbjct  395  AGGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAATAAAATGACGGTACCCGAATAA  454
+
+Query  120  GAAGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCC  179
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  455  GAAGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCC  514
+
+Query  180  GGAATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAA  239
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  515  GGAATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAA  574
+
+Query  240  GCTCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAA  299
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  575  GCTCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAA  634
+
+Query  300  TTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACT  359
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  635  TTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACT  694
+
+Query  360  TACTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  418
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  695  TACTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  753
+
+
+> 41b1165d1f97e8e80b4862b04ae083ff_d__Bacteria;p__Firmicutes;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Tyzzerella
+Length=416
+
+ Score = 767 bits (415),  Expect = 0.0
+ Identities = 415/415 (100%), Gaps = 0/415 (0%)
+ Strand=Plus/Plus
+
+Query  4    TGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAAGG  63
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAAGG  60
+
+Query  64   TTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGAAG  123
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   TTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGAAG  120
+
+Query  124  CCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGGAA  183
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  CCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGGAA  180
+
+Query  184  TTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGCTC  243
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  TTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGCTC  240
+
+Query  244  AACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATTCC  303
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  AACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATTCC  300
+
+Query  304  TAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTACT  363
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  TAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTACT  360
+
+Query  364  GGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  418
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  GGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  415
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1241325
+
+
+Query= 879940da3a259799c710f1acde0f42ba_d__Bacteria;p__Firmicutes;c__Clostr
+idia;o__Lachnospirales;f__Lachnospiraceae;g__Tyzzerella
+
+Length=421
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  879940da3a259799c710f1acde0f42ba_d__Bacteria;p__Firmicutes;c__C...  778     0.0  
+  e4e0545266286b127430838731d61681_d__Bacteria;p__Firmicutes;c__C...  771     0.0  
+  a5709007aefa7b3018eefcb9ec1e745c_d__Bacteria;p__Firmicutes;c__C...  771     0.0  
+  Anaeropeptidivorans_sp._Yukawa_strain                               769     0.0  
+  41b1165d1f97e8e80b4862b04ae083ff_d__Bacteria;p__Firmicutes;c__C...  769     0.0  
+
+
+> 879940da3a259799c710f1acde0f42ba_d__Bacteria;p__Firmicutes;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Tyzzerella
+Length=421
+
+ Score = 778 bits (421),  Expect = 0.0
+ Identities = 421/421 (100%), Gaps = 0/421 (0%)
+ Strand=Plus/Plus
+
+Query  1    AGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    AGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAA  60
+
+Query  61   GGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGA  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGA  120
+
+Query  121  AGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  AGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGG  180
+
+Query  181  AATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGC  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  AATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGC  240
+
+Query  241  TCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATT  300
+
+Query  301  CCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTA  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  CCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTA  360
+
+Query  361  CTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATACCCC  420
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  CTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATACCCC  420
+
+Query  421  A  421
+            |
+Sbjct  421  A  421
+
+
+> e4e0545266286b127430838731d61681_d__Bacteria;p__Firmicutes;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Tyzzerella
+Length=418
+
+ Score = 771 bits (417),  Expect = 0.0
+ Identities = 417/417 (100%), Gaps = 0/417 (0%)
+ Strand=Plus/Plus
+
+Query  1    AGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2    AGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAA  61
+
+Query  61   GGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGA  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  62   GGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGA  121
+
+Query  121  AGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  122  AGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGG  181
+
+Query  181  AATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGC  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  182  AATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGC  241
+
+Query  241  TCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  242  TCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATT  301
+
+Query  301  CCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTA  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  302  CCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTA  361
+
+Query  361  CTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  417
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  362  CTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  418
+
+
+> a5709007aefa7b3018eefcb9ec1e745c_d__Bacteria;p__Firmicutes;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Tyzzerella
+Length=417
+
+ Score = 771 bits (417),  Expect = 0.0
+ Identities = 417/417 (100%), Gaps = 0/417 (0%)
+ Strand=Plus/Plus
+
+Query  1    AGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    AGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAA  60
+
+Query  61   GGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGA  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   GGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGA  120
+
+Query  121  AGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  AGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGG  180
+
+Query  181  AATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGC  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  AATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGC  240
+
+Query  241  TCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  TCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATT  300
+
+Query  301  CCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTA  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  CCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTA  360
+
+Query  361  CTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  417
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  CTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  417
+
+
+> Anaeropeptidivorans_sp._Yukawa_strain
+Length=1458
+
+ Score = 769 bits (416),  Expect = 0.0
+ Identities = 419/420 (99%), Gaps = 1/420 (0%)
+ Strand=Plus/Plus
+
+Query  1    AGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  336  AGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAA  395
+
+Query  61   GGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAA-AAAATGACGGTACCCGAATAAG  119
+            ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||
+Sbjct  396  GGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAATAAAATGACGGTACCCGAATAAG  455
+
+Query  120  AAGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCG  179
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  456  AAGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCG  515
+
+Query  180  GAATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAG  239
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  516  GAATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAG  575
+
+Query  240  CTCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAAT  299
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  576  CTCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAAT  635
+
+Query  300  TCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTT  359
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  636  TCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTT  695
+
+Query  360  ACTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATACCC  419
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  696  ACTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATACCC  755
+
+
+> 41b1165d1f97e8e80b4862b04ae083ff_d__Bacteria;p__Firmicutes;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Tyzzerella
+Length=416
+
+ Score = 769 bits (416),  Expect = 0.0
+ Identities = 416/416 (100%), Gaps = 0/416 (0%)
+ Strand=Plus/Plus
+
+Query  3    TGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAAGG  62
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAAGG  60
+
+Query  63   TTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGAAG  122
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   TTTTCGGATCGTAAACTTCTATCAACGGGGAAGAAAAAATGACGGTACCCGAATAAGAAG  120
+
+Query  123  CCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGGAA  182
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  CCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGGAA  180
+
+Query  183  TTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGCTC  242
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  TTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGCTC  240
+
+Query  243  AACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATTCC  302
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241  AACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATTCC  300
+
+Query  303  TAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTACT  362
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301  TAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTACT  360
+
+Query  363  GGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATACC  418
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  GGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATACC  416
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1250520
+
+
+Query= Anaeropeptidivorans_sp._Yukawa_strain
+
+Length=1458
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Anaeropeptidivorans_sp._Yukawa_strain                               2693    0.0  
+  879940da3a259799c710f1acde0f42ba_d__Bacteria;p__Firmicutes;c__C...  769     0.0  
+  e4e0545266286b127430838731d61681_d__Bacteria;p__Firmicutes;c__C...  767     0.0  
+  a5709007aefa7b3018eefcb9ec1e745c_d__Bacteria;p__Firmicutes;c__C...  765     0.0  
+  41b1165d1f97e8e80b4862b04ae083ff_d__Bacteria;p__Firmicutes;c__C...  763     0.0  
+
+
+> Anaeropeptidivorans_sp._Yukawa_strain
+Length=1458
+
+ Score = 2693 bits (1458),  Expect = 0.0
+ Identities = 1458/1458 (100%), Gaps = 0/1458 (0%)
+ Strand=Plus/Plus
+
+Query  1     TGGCTCAGGATGAACGCTGGCGGCGTGCCTAACACATGCAAGTCGAGCGGAAATTATAGT  60
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1     TGGCTCAGGATGAACGCTGGCGGCGTGCCTAACACATGCAAGTCGAGCGGAAATTATAGT  60
+
+Query  61    GCTTGCACTATAATTTTAGCGGCGGACGGGTGAGTAACGCGTGGGCAACCTGCCCTGTAC  120
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61    GCTTGCACTATAATTTTAGCGGCGGACGGGTGAGTAACGCGTGGGCAACCTGCCCTGTAC  120
+
+Query  121   ACAGGAATAACAATGAGAAATTATTGCTAATGCCTGATAAGCTTACACTATCGCATGATA  180
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121   ACAGGAATAACAATGAGAAATTATTGCTAATGCCTGATAAGCTTACACTATCGCATGATA  180
+
+Query  181   GAGTAAGAAAAGATTTATCGGTACAGGAGGGGCCCGCGACTGATTAGCTAGTTGGTGGGG  240
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181   GAGTAAGAAAAGATTTATCGGTACAGGAGGGGCCCGCGACTGATTAGCTAGTTGGTGGGG  240
+
+Query  241   TAAAGGCCTACCAAGGCGACGATCAGTAGCCGACCTGAGAGGGTGATCGGCCACATTGGG  300
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  241   TAAAGGCCTACCAAGGCGACGATCAGTAGCCGACCTGAGAGGGTGATCGGCCACATTGGG  300
+
+Query  301   ACTGAGACACGGCCCAAACTCCTACGGGAGGCAGCAGTGGGGAATATTGCACAATGGGGG  360
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  301   ACTGAGACACGGCCCAAACTCCTACGGGAGGCAGCAGTGGGGAATATTGCACAATGGGGG  360
+
+Query  361   AAACCCTGATGCAGCAACGCCGCGTGAAGGATGAAGGTTTTCGGATCGTAAACTTCTATC  420
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361   AAACCCTGATGCAGCAACGCCGCGTGAAGGATGAAGGTTTTCGGATCGTAAACTTCTATC  420
+
+Query  421   AACGGGGAAGAATAAAATGACGGTACCCGAATAAGAAGCCCCGGCTAACTACGTGCCAGC  480
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  421   AACGGGGAAGAATAAAATGACGGTACCCGAATAAGAAGCCCCGGCTAACTACGTGCCAGC  480
+
+Query  481   AGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGGAATTACTGGGTGTAAAGGGTGAGT  540
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  481   AGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGGAATTACTGGGTGTAAAGGGTGAGT  540
+
+Query  541   AGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGCTCAACTTCGGGATTGCACAAGAAA  600
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  541   AGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGCTCAACTTCGGGATTGCACAAGAAA  600
+
+Query  601   CTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTA  660
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  601   CTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATTCCTAGTGTAGCGGTGAAATGCGTA  660
+
+Query  661   GATATTAGGAGGAACACCAGTGGCGAAGGCGACTTACTGGACTGTAACTGACGCTGAGTC  720
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  661   GATATTAGGAGGAACACCAGTGGCGAAGGCGACTTACTGGACTGTAACTGACGCTGAGTC  720
+
+Query  721   ACGAAAGCGTGGGGAGCGAACAGGATTAGATACCCTGGTAGTCCACGCCGTAAACGATGA  780
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  721   ACGAAAGCGTGGGGAGCGAACAGGATTAGATACCCTGGTAGTCCACGCCGTAAACGATGA  780
+
+Query  781   GTGCTAGGTGTCGGGGAGAGATCTTCGGTGCCGGAGCTAACGCAATAAGCACTCCACCTG  840
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  781   GTGCTAGGTGTCGGGGAGAGATCTTCGGTGCCGGAGCTAACGCAATAAGCACTCCACCTG  840
+
+Query  841   GGGAGTACGACCGCAAGGTTGAAACTCAAAGGAATTGACGGGGACCCGCACAAGCGGTGG  900
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  841   GGGAGTACGACCGCAAGGTTGAAACTCAAAGGAATTGACGGGGACCCGCACAAGCGGTGG  900
+
+Query  901   AGCATGTGGTTTAATTCGAAGCAACGCGAAGAACCTTACCAAGGTTTGACATCCCTTTGA  960
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  901   AGCATGTGGTTTAATTCGAAGCAACGCGAAGAACCTTACCAAGGTTTGACATCCCTTTGA  960
+
+Query  961   ATGCATTAGAGATAGTGCAGCCCTTTTGGGCAAAGGTGACAGGTGGTGCATGGTTGTCGT  1020
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  961   ATGCATTAGAGATAGTGCAGCCCTTTTGGGCAAAGGTGACAGGTGGTGCATGGTTGTCGT  1020
+
+Query  1021  CAGCTCGTGTCGTGAGATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCCTATCTTTAGT  1080
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1021  CAGCTCGTGTCGTGAGATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCCTATCTTTAGT  1080
+
+Query  1081  AGCCAGTGGGTAAAGCCAGGCACTCTAGAGAGACTGCCGTGGATAACACGGAGGAAGGTG  1140
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1081  AGCCAGTGGGTAAAGCCAGGCACTCTAGAGAGACTGCCGTGGATAACACGGAGGAAGGTG  1140
+
+Query  1141  GGGACGACGTCAAATCATCATGCCCCTTATATCTTGGGCTACACACGTGCTACAATGGCT  1200
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1141  GGGACGACGTCAAATCATCATGCCCCTTATATCTTGGGCTACACACGTGCTACAATGGCT  1200
+
+Query  1201  GGAACAAAGTGATGCAAGTACGCGAGTGCAAGCCAAACACTATAAAACCAGTCACAGTTC  1260
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1201  GGAACAAAGTGATGCAAGTACGCGAGTGCAAGCCAAACACTATAAAACCAGTCACAGTTC  1260
+
+Query  1261  GGATTGTAGTCTGCAACTCGACTACATGAAGTTGGAATCGCTAGTAATCGCAGATCAGCA  1320
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1261  GGATTGTAGTCTGCAACTCGACTACATGAAGTTGGAATCGCTAGTAATCGCAGATCAGCA  1320
+
+Query  1321  TGCTGCGGTGAATACGTTCCCGGGTCTTGTACACACCGCCCGTCACACCACGGGAGTTGG  1380
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1321  TGCTGCGGTGAATACGTTCCCGGGTCTTGTACACACCGCCCGTCACACCACGGGAGTTGG  1380
+
+Query  1381  ATGCGCCCGAAGTCTGTGACCTAACCGCAAGGGAGGAGCAGCCGAAGGTGAAGCCAGCGA  1440
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1381  ATGCGCCCGAAGTCTGTGACCTAACCGCAAGGGAGGAGCAGCCGAAGGTGAAGCCAGCGA  1440
+
+Query  1441  CTGGGGTGAAGTCGTAAC  1458
+             ||||||||||||||||||
+Sbjct  1441  CTGGGGTGAAGTCGTAAC  1458
+
+
+> 879940da3a259799c710f1acde0f42ba_d__Bacteria;p__Firmicutes;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Tyzzerella
+Length=421
+
+ Score = 769 bits (416),  Expect = 0.0
+ Identities = 419/420 (99%), Gaps = 1/420 (0%)
+ Strand=Plus/Plus
+
+Query  336  AGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAA  395
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    AGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAA  60
+
+Query  396  GGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAATAAAATGACGGTACCCGAATAAG  455
+            ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||
+Sbjct  61   GGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAA-AAAATGACGGTACCCGAATAAG  119
+
+Query  456  AAGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCG  515
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  120  AAGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCG  179
+
+Query  516  GAATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAG  575
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  180  GAATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAG  239
+
+Query  576  CTCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAAT  635
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  240  CTCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAAT  299
+
+Query  636  TCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTT  695
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  300  TCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTT  359
+
+Query  696  ACTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATACCC  755
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  360  ACTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATACCC  419
+
+
+> e4e0545266286b127430838731d61681_d__Bacteria;p__Firmicutes;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Tyzzerella
+Length=418
+
+ Score = 767 bits (415),  Expect = 0.0
+ Identities = 418/419 (99%), Gaps = 1/419 (0%)
+ Strand=Plus/Plus
+
+Query  335  CAGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGA  394
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    CAGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGA  60
+
+Query  395  AGGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAATAAAATGACGGTACCCGAATAA  454
+            |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||
+Sbjct  61   AGGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAA-AAAATGACGGTACCCGAATAA  119
+
+Query  455  GAAGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCC  514
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  120  GAAGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCC  179
+
+Query  515  GGAATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAA  574
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  180  GGAATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAA  239
+
+Query  575  GCTCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAA  634
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  240  GCTCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAA  299
+
+Query  635  TTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACT  694
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  300  TTCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACT  359
+
+Query  695  TACTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  753
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  360  TACTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  418
+
+
+> a5709007aefa7b3018eefcb9ec1e745c_d__Bacteria;p__Firmicutes;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Tyzzerella
+Length=417
+
+ Score = 765 bits (414),  Expect = 0.0
+ Identities = 417/418 (99%), Gaps = 1/418 (0%)
+ Strand=Plus/Plus
+
+Query  336  AGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAA  395
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    AGTGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAA  60
+
+Query  396  GGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAATAAAATGACGGTACCCGAATAAG  455
+            ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||
+Sbjct  61   GGTTTTCGGATCGTAAACTTCTATCAACGGGGAAGAA-AAAATGACGGTACCCGAATAAG  119
+
+Query  456  AAGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCG  515
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  120  AAGCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCG  179
+
+Query  516  GAATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAG  575
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  180  GAATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAG  239
+
+Query  576  CTCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAAT  635
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  240  CTCAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAAT  299
+
+Query  636  TCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTT  695
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  300  TCCTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTT  359
+
+Query  696  ACTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  753
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  360  ACTGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATAC  417
+
+
+> 41b1165d1f97e8e80b4862b04ae083ff_d__Bacteria;p__Firmicutes;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Tyzzerella
+Length=416
+
+ Score = 763 bits (413),  Expect = 0.0
+ Identities = 416/417 (99%), Gaps = 1/417 (0%)
+ Strand=Plus/Plus
+
+Query  338  TGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAAGG  397
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    TGGGGAATATTGCACAATGGGGGAAACCCTGATGCAGCAACGCCGCGTGAAGGATGAAGG  60
+
+Query  398  TTTTCGGATCGTAAACTTCTATCAACGGGGAAGAATAAAATGACGGTACCCGAATAAGAA  457
+            ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||
+Sbjct  61   TTTTCGGATCGTAAACTTCTATCAACGGGGAAGAA-AAAATGACGGTACCCGAATAAGAA  119
+
+Query  458  GCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGGA  517
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  120  GCCCCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGGGCAAGCGTTATCCGGA  179
+
+Query  518  ATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGCT  577
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  180  ATTACTGGGTGTAAAGGGTGAGTAGGCTGTTAAATAAGTCATGTGTGAAAGCCCGAAGCT  239
+
+Query  578  CAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATTC  637
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  240  CAACTTCGGGATTGCACAAGAAACTGTTTAACTAGAGTGCAGGAGAGGTAAGTGGAATTC  299
+
+Query  638  CTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTAC  697
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  300  CTAGTGTAGCGGTGAAATGCGTAGATATTAGGAGGAACACCAGTGGCGAAGGCGACTTAC  359
+
+Query  698  TGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATACC  754
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  360  TGGACTGTAACTGACGCTGAGTCACGAAAGCGTGGGGAGCGAACAGGATTAGATACC  416
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4408365
+
+
+  Database: rep-seqs-dada2_trunc-len_200_sequences_rename_Tyzzerella.fasta
+    Posted date:  Aug 25, 2024  8:26 PM
+  Number of letters in database: 3,130
+  Number of sequences in database:  5
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
