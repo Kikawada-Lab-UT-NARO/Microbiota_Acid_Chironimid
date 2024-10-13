@@ -1,0 +1,12 @@
+Bacillales	5.446011954819699			-
+Acidithiobacillales	5.573354495245856	wild	5.60224377408237	0.03690395361371813
+Gomontiellales	4.47226875192525			-
+Corynebacteriales	5.655340919881989			-
+Rickettsiales	4.746029728201938			-
+Lachnospirales	4.886767282959704			-
+Acidimicrobiales	4.3979400086720375			-
+Legionellales	4.367976785294594			-
+Chroococcales	4.539686752348664			-
+Sphingomonadales	5.084965922988827			-
+Lysobacterales	4.535281892506191			-
+Hyphomicrobiales	4.471834674445931			-

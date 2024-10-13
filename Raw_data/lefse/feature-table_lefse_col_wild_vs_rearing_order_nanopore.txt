@@ -1,0 +1,15 @@
+Sample	rearing	rearing	rearing	wild	wild	wild
+Sample_name	rearing	rearing	rearing	wild	wild	wild
+Sample	rearing_1	rearing_2	rearing_3	wild_1	wild_2	wild_3
+Bacillales	0.354	0.27	0.214	0.22	0.15	0.06
+Acidithiobacillales	0	0	0	0.303	0.572	0.248
+Gomontiellales	0	0	0	0.089	0	0
+Corynebacteriales	0.501	0.488	0.368	0.388	0.194	0.377
+Rickettsiales	0	0	0	0	0	0.167
+Lachnospirales	0	0	0	0	0.084	0.147
+Acidimicrobiales	0.075	0	0	0	0	0
+Legionellales	0.07	0	0	0	0	0
+Chroococcales	0	0.05	0.054	0	0	0
+Sphingomonadales	0	0.192	0.173	0	0	0
+Lysobacterales	0	0	0.103	0	0	0
+Hyphomicrobiales	0	0	0.089	0	0	0
