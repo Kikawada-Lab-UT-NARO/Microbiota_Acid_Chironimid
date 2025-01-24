@@ -1,0 +1,227 @@
+---
+title: "ggpicrust"
+author: "Eita Nakanishi"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+importing library
+
+```{r}
+# If you want to analyze the abundance of KEGG pathways instead of KO within the pathway, please set `ko_to_kegg` to TRUE.
+# KEGG pathways typically have more descriptive explanations.
+
+library(readr)
+library(ggpicrust2)
+library(tibble)
+library(tidyverse)
+library(ggprism)
+library(patchwork)
+library(ALDEx2)
+library(tidyverse)
+library(ggh4x)
+library(ggpicrust2)
+```
+
+Reading raw count data
+```{r}
+
+metacyc_abundance_file_path <- "/Users/nakanishi/Dropbox/00_16S_rRNA/Illumina_V3-V4_sequencing_data/2024-07-10_non-imago/q2-picrust2_output/pathabun_exported/pathabunｰfeature-table.biom_larva_vs_water.txt"
+metadata_path <- "/Users/nakanishi/Dropbox/00_16S_rRNA/Illumina_V3-V4_sequencing_data/2024-07-10_non-imago/q2-picrust2_output/metadata_larva_water.txt"
+
+metadata <- read_delim(
+    metadata_path,
+    delim = "\t",
+    escape_double = FALSE,
+    trim_ws = TRUE
+)
+metacyc_abundance <- read_delim(metacyc_abundance_file_path, delim = "\t", col_names = TRUE, trim_ws = TRUE)
+
+```
+
+## Including Plots
+
+```{r}
+# Perform differential abundance analysis
+metacyc_daa_results_df <- pathway_daa(
+  abundance = metacyc_abundance %>% column_to_rownames("pathway"),
+  metadata = metadata,
+  group = "Group",
+  daa_method = "edgeR",
+  p.adjust = "BH"
+)
+
+```
+
+You can also embed plots, for example:
+```{r}
+# Annotate the results
+annotated_metacyc_daa_results_df <- pathway_annotation(
+  pathway = "MetaCyc",
+  daa_results_df = metacyc_daa_results_df,
+  ko_to_kegg = FALSE
+)
+```
+
+```{r}
+# Filter features with p < 0.05
+feature_with_p_0.05 <- metacyc_daa_results_df %>% 
+  filter(p_adjust < 0.05 )
+metacyc_abundance_sorted <- 
+metacyc_abundance[order(metacyc_abundance$P_kusatsuensis_larva_1, decreasing=T),]
+```
+
+```{r pressure, echo=FALSE}
+pathway_heatmap(
+  abundance = metacyc_abundance_sorted %>% 
+    right_join(
+      annotated_metacyc_daa_results_df %>% dplyr::select(all_of(c("feature","description"))), by = c("pathway" = "feature")) %>% 
+    filter(pathway %in% feature_with_p_0.05$feature) %>% dplyr::select(-"pathway") %>%
+    column_to_rownames("description"),
+  metadata = metadata, 
+  group = "Group"
+)
+
+metacyc_abundance_table <- metacyc_abundance_sorted %>% 
+    right_join(
+      annotated_metacyc_daa_results_df %>% dplyr::select(all_of(c("feature","description"))), by = c("pathway" = "feature"))  %>% dplyr::select(-"pathway") %>%
+    column_to_rownames("description")
+write.table(metacyc_abundance_table,"filename.txt", quote = FALSE, sep = "\t")
+ggsave("/Users/nakanishi/Dropbox/00_16S_rRNA/Illumina_V3-V4_sequencing_data/2024-07-10_non-imago/q2-picrust2_output/pathabun_exported/pathway_heatmap_v0.1_daa-edgeR_BH_p-0.05.pdf", device = "pdf", width = 16, height = 20)
+
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+
+Reading raw count data
+```{r}
+
+ko_abundance_file_path <- "/Users/nakanishi/Dropbox/00_16S_rRNA/Illumina_V3-V4_sequencing_data/2024-07-10_non-imago/q2-picrust2_output/ko_metagenome_exported/ko-feature-table.biom_larva_vs_water.txt"
+metadata_path <- "/Users/nakanishi/Dropbox/00_16S_rRNA/Illumina_V3-V4_sequencing_data/2024-07-10_non-imago/q2-picrust2_output/metadata_larva_water.txt"
+
+metadata <- read_delim(
+    metadata_path,
+    delim = "\t",
+    escape_double = FALSE,
+    trim_ws = TRUE
+)
+#ko_abundance <- read_delim(ko_abundance_file_path, delim = "\t", col_names = TRUE, trim_ws = TRUE)
+
+```
+```{r}
+# Load KEGG pathway abundance
+kegg_abundance <- ko2kegg_abundance(ko_abundance_file_path)
+daa_results_df <- pathway_daa(abundance = kegg_abundance, metadata = metadata, group = "Group", daa_method = "edgeR", select = NULL, reference = NULL)
+# daa_sub_method_results_df <- daa_results_df[daa_results_df$method == "ALDEx2_Wilcoxon rank test", ]
+
+daa_annotated_sub_method_results_df <- pathway_annotation(pathway = "KO", daa_results_df = daa_results_df, ko_to_kegg = TRUE)
+
+```
+
+```{r}
+p <- pathway_errorbar(abundance = ko_abundance %>% column_to_rownames("#NAME"), daa_results_df = daa_annotated_sub_method_results_df, Group = metadata$Environment, p_values_threshold = 0.05, order = "group",
+select = daa_annotated_sub_method_results_df %>% arrange(p_adjust) %>% slice(1:20) %>% dplyr::select(feature) %>% pull(), 
+ko_to_kegg = FALSE, 
+p_value_bar = TRUE, 
+colors = NULL, 
+x_lab = "description")
+```
+
+## Including Plots
+
+```{r}
+# Perform differential abundance analysis
+metacyc_daa_results_df <- pathway_daa(
+  abundance = metacyc_abundance %>% column_to_rownames("pathway"),
+  metadata = metadata,
+  group = "Group",
+  daa_method = "edgeR",
+  p.adjust = "BH"
+)
+
+```
+
+```{r}
+
+pathway_heatmap_2 <- function(abundance, metadata, group)
+{
+    if (!group %in% colnames(metadata)) {
+        stop(paste("group:", group, "must be a column in metadata"))
+    }
+    sample_name_col <- colnames(metadata)[sapply(colnames(metadata), 
+        function(x) all(colnames(abundance) %in% metadata[[x]]))]
+    metadata$sample_name <- metadata %>% dplyr::select(all_of(c(sample_name_col))) %>% 
+        pull()
+    if (!all(colnames(abundance) %in% metadata$sample_name)) {
+        stop("Samples in abundance and metadata must match")
+    }
+    z_abundance <- t(apply(abundance, 1, scale))
+    colnames(z_abundance) <- colnames(abundance)
+    z_df <- as.data.frame(z_abundance)
+    metadata <- metadata %>% as.data.frame()
+    ordered_metadata <- metadata[order(metadata[, group]), ]
+    ordered_sample_names <- ordered_metadata$sample_name
+    order <- ordered_metadata$sample_name
+    ordered_group_levels <- ordered_metadata %>% dplyr::select(all_of(c(group))) %>% 
+        pull()
+    long_df_1 <- z_df %>% tibble::rownames_to_column() %>% tidyr::pivot_longer(cols = -rowname, 
+        names_to = "Sample", values_to = "Value") %>% left_join(metadata %>% 
+        dplyr::select(all_of(c("sample_name", group))), by = c(Sample = "sample_name"))
+    print(long_df_1)
+    long_df <- long_df_1 %>% arrange(Value)
+    print(long_df)
+    long_df$Sample <- factor(long_df$Sample)
+    print(long_df)
+    breaks <- range(long_df$Value, na.rm = TRUE)
+    colors <- c("#d93c3e", "#3685bc", "#6faa3e", "#e8a825", "#c973e6", 
+        "#ee6b3d", "#2db0a7", "#f25292")
+    p <- long_df %>% ggplot2::ggplot( ggplot2::aes(x = Sample,
+        y = fct_reorder2(rowname, Value, Sample), fill = Value)) + ggplot2::geom_tile() + 
+        ggplot2::scale_fill_gradient2(low = "#0571b0", mid = "white", 
+            high = "#ca0020", midpoint = 0) + ggplot2::labs(x = NULL, 
+        y = NULL) + ggplot2::scale_y_discrete(expand = c(0, 0), 
+        position = "left") + ggplot2::scale_x_discrete(expand = c(0, 
+        0)) + ggplot2::theme(axis.text.x = ggplot2::element_blank(), 
+        axis.text.y = ggplot2::element_text(size = 12, color = "black"), 
+        axis.ticks = ggplot2::element_blank(), axis.text = ggplot2::element_text(color = "black", 
+            size = 10, face = "bold"), panel.spacing = unit(0, 
+            "lines"), legend.title = ggplot2::element_text(size = 12, 
+            color = "black", face = "bold"), legend.text = ggplot2::element_text(size = 12, 
+            color = "black", face = "bold"), panel.background = ggplot2::element_blank(), 
+        legend.margin = ggplot2::margin(l = 0, unit = "cm"), 
+        strip.text = element_text(size = 12, face = "bold")) + 
+        ggplot2::guides(fill = ggplot2::guide_colorbar(direction = "vertical", 
+            reverse = F, barwidth = unit(0.6, "cm"), barheight = unit(9, 
+                "cm"), title = "Z Score", title.position = "top", 
+            title.hjust = -1, ticks = TRUE, label = TRUE)) + 
+        ggh4x::facet_nested(cols = vars(!!sym(group)), space = "free", 
+            scale = "free", switch = "x", strip = strip_nested(background_x = elem_list_rect(fill = colors)))
+    cat("The Sample Names in order from left to right are:\n")
+    cat(ordered_sample_names, sep = ", ")
+    cat("\n")
+    cat("The Group Levels in order from left to right are:\n")
+    cat(ordered_group_levels, sep = ", ")
+    cat("\n")
+    return(p)
+}
+
+```
+
+
+```{r pressure, echo=FALSE}   
+
+pathway_heatmap_2(
+  abundance = metacyc_abundance_sorted %>% 
+    right_join(
+      annotated_metacyc_daa_results_df %>% dplyr::select(all_of(c("feature","description"))), by = c("pathway" = "feature")) %>% 
+    filter(pathway %in% feature_with_p_0.05$feature) %>% dplyr::select(-"pathway") %>%
+    column_to_rownames("description"),
+  metadata = metadata, 
+  group = "Group"
+)
+
+ggsave("/Users/nakanishi/Dropbox/00_16S_rRNA/Illumina_V3-V4_sequencing_data/2024-07-10_non-imago/q2-picrust2_output/pathabun_exported/pathway_heatmap_v0.1_daa-edgeR_BH_p-0.05_v2.pdf", device = "pdf", width = 16, height = 20)
+
+```
