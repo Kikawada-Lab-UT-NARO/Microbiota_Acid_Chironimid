@@ -53,7 +53,7 @@ metacyc_daa_results_df <- pathway_daa(
 
 ```
 
-You can also embed plots, for example:
+
 ```{r}
 # Annotate the results
 annotated_metacyc_daa_results_df <- pathway_annotation(
@@ -91,25 +91,8 @@ ggsave("/Users/nakanishi/Dropbox/00_16S_rRNA/Illumina_V3-V4_sequencing_data/2024
 
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
 
-
-Reading raw count data
-```{r}
-
-ko_abundance_file_path <- "/Users/nakanishi/Dropbox/00_16S_rRNA/Illumina_V3-V4_sequencing_data/2024-07-10_non-imago/q2-picrust2_output/ko_metagenome_exported/ko-feature-table.biom_larva_vs_water.txt"
-metadata_path <- "/Users/nakanishi/Dropbox/00_16S_rRNA/Illumina_V3-V4_sequencing_data/2024-07-10_non-imago/q2-picrust2_output/metadata_larva_water.txt"
-
-metadata <- read_delim(
-    metadata_path,
-    delim = "\t",
-    escape_double = FALSE,
-    trim_ws = TRUE
-)
-#ko_abundance <- read_delim(ko_abundance_file_path, delim = "\t", col_names = TRUE, trim_ws = TRUE)
-
-```
 ```{r}
 # Load KEGG pathway abundance
 kegg_abundance <- ko2kegg_abundance(ko_abundance_file_path)
