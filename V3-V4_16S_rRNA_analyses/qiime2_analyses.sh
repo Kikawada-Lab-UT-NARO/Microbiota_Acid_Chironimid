@@ -19,6 +19,8 @@ qiime phylogeny align-to-tree-mafft-fasttree --i-sequences $WD/$DIR/rep-seqs-dad
 
 # Visualize the feature table
 qiime taxa barplot --i-table $WD/$DIR/table-dada2_trunc-len_${i}_filter.qza --i-taxonomy $WD/taxonomy.qza --m-metadata-file $METADATA --o-visualization $WD/taxa-bar-plots.qzv
+qiime taxa barplot --i-table $WD/$DIR/table-dada2_trunc-len_${i}.qza --i-taxonomy $WD/taxonomy.qza --m-metadata-file $METADATA --o-visualization $WD/taxa-bar-plots_raw.qzv
+
 
 # Export the feature table
 qiime feature-table summarize --i-table $WD/$DIR/table-dada2_trunc-len_${i}_filter.qza --o-visualization $WD/table-dada2_trunc-len_${i}.qzv --m-sample-metadata-file $METADATA
