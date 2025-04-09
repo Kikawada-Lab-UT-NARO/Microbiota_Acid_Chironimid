@@ -1,5 +1,7 @@
 # Setting the truncation length
 i=200
+j=280
+DIR=trunc-len_trim-f-17-r10_trunc-f-${j}-r-i
 # Assign taxonomy
 qiime feature-classifier classify-sklearn --i-classifier $WD/silva-138-99-nb-classifier.qza \
 	--i-reads $WD/$DIR/rep-seqs-dada2_trunc-len_${i}.qza --o-classification $WD/taxonomy.qza --output-dir feature-classifier 
