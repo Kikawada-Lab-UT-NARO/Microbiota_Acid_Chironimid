@@ -1,0 +1,9 @@
+mkdir Level_7
+
+qiime taxa collapse --i-table /home/nakanishi/Dropbox/00_16S_rRNA/Illumina_V3-V4_sequencing_data/2024-07-10_non-imago/trunc-len_trim-f-17-r10_trunc-f-280-r-i/table-dada2_trunc-len_200.qza --i-taxonomy /home/nakanishi/Dropbox/00_16S_rRNA/Illumina_V3-V4_sequencing_data/2024-07-10_non-imago/taxonomy.qza --p-level 7 --o-collapsed-table Level_7/collapsed_table.qza
+
+qiime feature-table relative-frequency --i-table /home/nakanishi/Dropbox/00_16S_rRNA/Illumina_V3-V4_sequencing_data/2024-07-10_non-imago/Level_7/collapsed_table.qza --o-relative-frequency-table /home/nakanishi/Dropbox/00_16S_rRNA/Illumina_V3-V4_sequencing_data/2024-07-10_non-imago/trunc-len_trim-f-17-r10_trunc-f-280-r-i/table-dada2_trunc-len_200_relative_level_7.qza
+
+qiime tools export --input-path /home/nakanishi/Dropbox/00_16S_rRNA/Illumina_V3-V4_sequencing_data/2024-07-10_non-imago/trunc-len_trim-f-17-r10_trunc-f-280-r-i/table-dada2_trunc-len_200_relative_level_7.qza --output-path ./table-dada2_trunc-len_200_relative_files
+
+biom convert -i ./table-dada2_trunc-len_200_relative_files/feature-table.biom -o feature-table.txt --to-tsv --header-key taxonomy
